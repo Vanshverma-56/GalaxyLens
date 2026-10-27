@@ -1,0 +1,103 @@
+{
+  "checkpoint": "artifacts/checkpoints/baseline_best.pt",
+  "split": "test",
+  "seed": 2026,
+  "status": "completed",
+  "completed_conditions": 13,
+  "expected_conditions": 13,
+  "conditions": [
+    {
+      "condition": "clean",
+      "severity": 0,
+      "n_samples": 1774,
+      "accuracy": 0.8174,
+      "macro_f1": 0.8081
+    },
+    {
+      "condition": "blur",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.8067,
+      "macro_f1": 0.7913
+    },
+    {
+      "condition": "blur",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7869,
+      "macro_f1": 0.7727
+    },
+    {
+      "condition": "blur",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7632,
+      "macro_f1": 0.7619
+    },
+    {
+      "condition": "resolution",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7886,
+      "macro_f1": 0.776
+    },
+    {
+      "condition": "resolution",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7497,
+      "macro_f1": 0.7501
+    },
+    {
+      "condition": "resolution",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.3968,
+      "macro_f1": 0.3524
+    },
+    {
+      "condition": "noise",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.8168,
+      "macro_f1": 0.8075
+    },
+    {
+      "condition": "noise",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.8134,
+      "macro_f1": 0.8029
+    },
+    {
+      "condition": "noise",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7993,
+      "macro_f1": 0.794
+    },
+    {
+      "condition": "brightness",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7813,
+      "macro_f1": 0.7762
+    },
+    {
+      "condition": "brightness",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7097,
+      "macro_f1": 0.7039
+    },
+    {
+      "condition": "brightness",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.562,
+      "macro_f1": 0.5657,
+      "details_status": "Corrected aggregate scores recovered from the completed brightness-only evaluation. Corrected per-class metrics and confusion matrix are not available in the current restored files."
+    }
+  ],
+  "note": "Twelve aggregate results were recovered from previous notebook output and rounded to four decimal places. Brightness severity 3 was evaluated in this run with detailed metrics. Synthetic stress tests do not establish cross-survey generalization. Brightness severity 3 was corrected to factor 0.4 using the completed brightness-only evaluation (accuracy 0.5620, macro-F1 0.5657). The previous factor-1.25 brightening result is preserved separately as historical data. Corrected severity-3 per-class metrics and confusion matrix are unavailable."
+}

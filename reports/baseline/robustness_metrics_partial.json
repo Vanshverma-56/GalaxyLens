@@ -1,0 +1,286 @@
+{
+  "checkpoint": "artifacts/checkpoints/baseline_best.pt",
+  "split": "test",
+  "seed": 2026,
+  "status": "completed",
+  "completed_conditions": 13,
+  "expected_conditions": 13,
+  "conditions": [
+    {
+      "condition": "clean",
+      "severity": 0,
+      "n_samples": 1774,
+      "accuracy": 0.8174,
+      "macro_f1": 0.8081
+    },
+    {
+      "condition": "blur",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.8067,
+      "macro_f1": 0.7913
+    },
+    {
+      "condition": "blur",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7869,
+      "macro_f1": 0.7727
+    },
+    {
+      "condition": "blur",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7632,
+      "macro_f1": 0.7619
+    },
+    {
+      "condition": "resolution",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7886,
+      "macro_f1": 0.776
+    },
+    {
+      "condition": "resolution",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7497,
+      "macro_f1": 0.7501
+    },
+    {
+      "condition": "resolution",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.3968,
+      "macro_f1": 0.3524
+    },
+    {
+      "condition": "noise",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.8168,
+      "macro_f1": 0.8075
+    },
+    {
+      "condition": "noise",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.8134,
+      "macro_f1": 0.8029
+    },
+    {
+      "condition": "noise",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7993,
+      "macro_f1": 0.794
+    },
+    {
+      "condition": "brightness",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7813,
+      "macro_f1": 0.7762
+    },
+    {
+      "condition": "brightness",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7097,
+      "macro_f1": 0.7039
+    },
+    {
+      "condition": "brightness",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7857948139797069,
+      "macro_f1": 0.7659169566917444,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.569620253164557,
+          "recall": 0.4166666666666667,
+          "f1-score": 0.48128342245989303,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.7100840336134454,
+          "recall": 0.9135135135135135,
+          "f1-score": 0.7990543735224587,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8880597014925373,
+          "recall": 0.9015151515151515,
+          "f1-score": 0.8947368421052632,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.8720379146919431,
+          "recall": 0.9064039408866995,
+          "f1-score": 0.8888888888888888,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.6585365853658537,
+          "recall": 0.7941176470588235,
+          "f1-score": 0.72,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9291338582677166,
+          "recall": 0.5756097560975609,
+          "f1-score": 0.7108433734939759,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.6717171717171717,
+          "recall": 0.726775956284153,
+          "f1-score": 0.6981627296587927,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6543624161073825,
+          "recall": 0.7414448669201521,
+          "f1-score": 0.6951871657754011,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.916030534351145,
+          "recall": 0.8450704225352113,
+          "f1-score": 0.8791208791208791,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9016393442622951,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.8918918918918919,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          45,
+          8,
+          13,
+          12,
+          3,
+          0,
+          3,
+          21,
+          1,
+          2
+        ],
+        [
+          0,
+          169,
+          3,
+          0,
+          2,
+          2,
+          4,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          9,
+          238,
+          2,
+          0,
+          0,
+          10,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          1,
+          184,
+          1,
+          0,
+          6,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          27,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          9,
+          14,
+          1,
+          2,
+          1,
+          118,
+          19,
+          37,
+          2,
+          2
+        ],
+        [
+          2,
+          4,
+          7,
+          1,
+          0,
+          3,
+          133,
+          32,
+          1,
+          0
+        ],
+        [
+          13,
+          23,
+          3,
+          2,
+          0,
+          4,
+          18,
+          195,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          5,
+          0,
+          3,
+          2,
+          120,
+          9
+        ],
+        [
+          4,
+          5,
+          2,
+          3,
+          2,
+          0,
+          1,
+          1,
+          4,
+          165
+        ]
+      ]
+    }
+  ],
+  "note": "Twelve aggregate results were recovered from previous notebook output and rounded to four decimal places. Brightness severity 3 was evaluated in this run with detailed metrics. Synthetic stress tests do not establish cross-survey generalization."
+}

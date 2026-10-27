@@ -1,0 +1,30 @@
+{
+  "checkpoint": "artifacts/checkpoints/baseline_best.pt",
+  "split": "test",
+  "seed": 2026,
+  "conditions": [
+    {
+      "condition": "brightness",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7813,
+      "macro_f1": 0.7762
+    },
+    {
+      "condition": "brightness",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7097,
+      "macro_f1": 0.7039
+    },
+    {
+      "condition": "brightness",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.562,
+      "macro_f1": 0.5657,
+      "details_status": "Corrected aggregate scores recovered from the completed brightness-only evaluation. Corrected per-class metrics and confusion matrix are not available in the current restored files."
+    }
+  ],
+  "note": "Corrected brightness darkening results. Severity 3 uses factor 0.4. Severity-3 per-class metrics and confusion matrix were not recovered."
+}
