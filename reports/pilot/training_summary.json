@@ -1,0 +1,10 @@
+{
+  "checkpoint": "artifacts/checkpoints/pilot_best.pt",
+  "best_epoch": 1,
+  "best_validation_macro_f1": 0.32066251250810635,
+  "epochs_completed": 1,
+  "elapsed_seconds": 5.23,
+  "device": "cuda",
+  "test_set_used_for_selection": false,
+  "history_path": "reports/pilot/history.json"
+}
