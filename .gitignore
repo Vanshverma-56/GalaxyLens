@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Raw dataset and generated caches
+data/raw/*
+!data/raw/.gitkeep
+data/cache/
+*.h5
+*.hdf5
+*.npy
+
+# Preserve reproducible split manifests
+# (Do not ignore data/splits/)
+
+# Model checkpoints
+artifacts/checkpoints/*
+!artifacts/checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Preserve experiment reports
+# (Do not ignore reports/)
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+
+# Editor and operating system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
