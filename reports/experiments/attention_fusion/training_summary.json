@@ -1,0 +1,12 @@
+{
+  "experiment": "Experiment 6 - Attention-Based Feature Fusion",
+  "checkpoint": "artifacts/checkpoints/attention_best.pt",
+  "best_epoch": 9,
+  "best_validation_macro_f1": 0.8040240424074507,
+  "epochs_completed": 12,
+  "elapsed_seconds": 704.25,
+  "device": "cuda",
+  "seed": 42,
+  "test_set_used_for_selection": false,
+  "history_path": "reports/experiments/attention_fusion/history.json"
+}

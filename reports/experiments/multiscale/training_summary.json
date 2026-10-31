@@ -1,0 +1,11 @@
+{
+  "experiment": "Multi-Scale ResNet-18",
+  "checkpoint": "artifacts/checkpoints/multiscale_best.pt",
+  "best_epoch": 4,
+  "best_validation_macro_f1": 0.7896901741644036,
+  "epochs_completed": 8,
+  "elapsed_seconds": 472.85,
+  "device": "cuda",
+  "test_set_used_for_selection": false,
+  "history_path": "reports/experiments/multiscale/history.json"
+}

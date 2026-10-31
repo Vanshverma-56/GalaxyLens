@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from torch import nn
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, WeightedRandomSampler
 from sklearn.metrics import f1_score
 from tqdm import tqdm
 import torchvision
@@ -29,7 +29,9 @@ p.add_argument("--seed", type=int, default=42)
 p.add_argument("--device", default="auto")
 p.add_argument("--pretrained", action=argparse.BooleanOptionalAction, default=True)
 p.add_argument("--quality-augmentation", action="store_true")
+p.add_argument("--disturbed-sampling-weight", type=float, default=1.0)
 p.add_argument("--patience", type=int, default=4)
+p.add_argument("--class-balanced-loss", action="store_true")
 args = p.parse_args()
 
 random.seed(args.seed); np.random.seed(args.seed); torch.manual_seed(args.seed)
@@ -42,12 +44,60 @@ train_ds = Galaxy10H5Dataset(args.data, splits["indices"]["train"],
     build_transform(training=True, quality_augmentation=args.quality_augmentation))
 val_ds = Galaxy10H5Dataset(args.data, splits["indices"]["validation"], build_transform(training=False))
 generator = torch.Generator().manual_seed(args.seed)
-train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True, num_workers=args.workers,
-                          pin_memory=(device.type == "cuda"), generator=generator)
+
+if args.disturbed_sampling_weight < 1.0:
+    raise ValueError("Disturbed sampling weight must be >= 1.0.")
+
+if args.disturbed_sampling_weight > 1.0:
+    disturbed_idx = CLASS_NAMES.index("Disturbed Galaxies")
+    sample_weights = torch.ones(len(train_ds), dtype=torch.double)
+    sample_weights[torch.as_tensor(np.asarray(train_ds.labels) == disturbed_idx)] = (
+        args.disturbed_sampling_weight
+    )
+    train_sampler = WeightedRandomSampler(
+        weights=sample_weights,
+        num_samples=len(train_ds),
+        replacement=True,
+        generator=generator,
+    )
+    train_loader = DataLoader(
+        train_ds, batch_size=args.batch_size, sampler=train_sampler,
+        num_workers=args.workers, pin_memory=(device.type == "cuda")
+    )
+    print(
+        f"Weighted sampling enabled: Disturbed Galaxies weight="
+        f"{args.disturbed_sampling_weight}"
+    )
+else:
+    train_loader = DataLoader(
+        train_ds, batch_size=args.batch_size, shuffle=True,
+        num_workers=args.workers, pin_memory=(device.type == "cuda"),
+        generator=generator
+    )
+
 val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False, num_workers=args.workers,
                         pin_memory=(device.type == "cuda"))
 model = build_model(pretrained=args.pretrained).to(device)
-criterion = nn.CrossEntropyLoss()
+if args.class_balanced_loss:
+    train_labels = np.asarray(train_ds.labels, dtype=np.int64)
+    class_counts = np.bincount(train_labels, minlength=len(CLASS_NAMES))
+
+    class_weights = np.sqrt(
+        len(train_labels) / (len(CLASS_NAMES) * class_counts)
+    )
+
+    class_weights = class_weights / class_weights.mean()
+    class_weights = torch.tensor(
+        class_weights, dtype=torch.float32, device=device
+    )
+
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
+
+    print("Class-balanced loss enabled")
+    for name, count, weight in zip(CLASS_NAMES, class_counts, class_weights.cpu().tolist()):
+        print(f"{name:40s} count={count:5d} weight={weight:.4f}")
+else:
+    criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
 out_path = Path(args.out); out_path.parent.mkdir(parents=True, exist_ok=True)
 report_dir = Path(args.reports); report_dir.mkdir(parents=True, exist_ok=True)

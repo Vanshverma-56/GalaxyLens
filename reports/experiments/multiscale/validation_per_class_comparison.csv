@@ -1,0 +1,11 @@
+class,baseline_f1,multiscale_f1,difference_percentage_points
+Disturbed Galaxies,49.36,43.68,-5.68
+Merging Galaxies,87.33,87.14,-0.19
+Round Smooth Galaxies,91.34,87.52,-3.81
+In-between Round Smooth Galaxies,89.05,87.32,-1.73
+Cigar Shaped Smooth Galaxies,76.19,73.97,-2.22
+Barred Spiral Galaxies,83.38,82.87,-0.51
+Unbarred Tight Spiral Galaxies,72.73,74.23,1.51
+Unbarred Loose Spiral Galaxies,70.88,69.04,-1.84
+Edge-on Galaxies without Bulge,91.47,90.37,-1.1
+Edge-on Galaxies with Bulge,92.06,93.55,1.48

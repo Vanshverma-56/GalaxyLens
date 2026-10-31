@@ -12,17 +12,27 @@ from galaxylens.model import choose_device, load_checkpoint
 from galaxylens.transforms import build_transform, apply_corruption
 from galaxylens.metrics import summarize_predictions, write_json
 
-class H5CorruptedDataset(Dataset):
-    def __init__(self,path,indices,kind,severity,seed,transform):
-        self.path=path;self.indices=indices;self.kind=kind;self.severity=severity;self.seed=seed;self.transform=transform
-        with h5py.File(path,"r") as h5: self.labels=np.asarray(h5["ans"]).reshape(-1).astype(int)[indices]
-        self.h5=None
-    def __len__(self): return len(self.indices)
-    def __getitem__(self,i):
-        if self.h5 is None: self.h5=h5py.File(self.path,"r")
-        idx=int(self.indices[i]); image=Image.fromarray(np.asarray(self.h5["images"][idx]).astype(np.uint8)).convert("RGB")
-        image=apply_corruption(image,self.kind,self.severity,seed=self.seed+idx)
-        return self.transform(image),int(self.labels[i])
+class CachedCorruptedDataset(Dataset):
+    def __init__(self, images_path, labels_path, indices, kind, severity, seed, transform):
+        self.images = np.load(images_path, mmap_mode="r")
+        self.labels = np.load(labels_path, mmap_mode="r")
+        self.indices = indices
+        self.kind = kind
+        self.severity = severity
+        self.seed = seed
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.indices)
+
+    def __getitem__(self, i):
+        idx = int(self.indices[i])
+        image = Image.fromarray(np.array(self.images[idx], copy=True)).convert("RGB")
+        image = apply_corruption(
+            image, self.kind, self.severity, seed=self.seed + idx
+        )
+        return self.transform(image), int(self.labels[idx])
+
 
 p=argparse.ArgumentParser()
 p.add_argument("--data",default="data/raw/Galaxy10_DECals.h5")
@@ -36,7 +46,12 @@ device=choose_device(args.device); split=json.loads(Path(args.splits).read_text(
 model,ckpt=load_checkpoint(args.checkpoint,device); results=[]
 conditions=[("clean",0)]+[(k,s) for k in ("blur","resolution","noise","brightness") for s in (1,2,3)]
 for kind,severity in conditions:
-    ds=H5CorruptedDataset(args.data,split["indices"]["test"],kind,severity,args.seed,build_transform(training=False))
+    ds=CachedCorruptedDataset(
+        "data/cache/galaxy10_images.npy",
+        "data/cache/galaxy10_labels.npy",
+        split["indices"]["test"], kind, severity, args.seed,
+        build_transform(training=False)
+    )
     loader=DataLoader(ds,batch_size=args.batch_size,shuffle=False,num_workers=args.workers)
     ys=[];ps=[]
     with torch.no_grad():

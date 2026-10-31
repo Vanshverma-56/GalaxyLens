@@ -1,0 +1,11 @@
+Galaxy class,Baseline,Quality augmentation,Weighted + augmentation,Best model
+Disturbed Galaxies,52.68,44.44,45.76,Baseline
+Merging Galaxies,84.07,83.94,79.27,Baseline
+Round Smooth Galaxies,89.71,90.64,87.12,Quality augmentation
+In-between Round Smooth Galaxies,90.15,90.35,86.64,Quality augmentation
+Cigar Shaped Smooth Galaxies,82.19,75.36,74.7,Baseline
+Barred Spiral Galaxies,82.58,84.04,78.24,Quality augmentation
+Unbarred Tight Spiral Galaxies,72.93,69.89,68.25,Baseline
+Unbarred Loose Spiral Galaxies,71.38,71.19,63.84,Baseline
+Edge-on Galaxies without Bulge,90.91,87.32,88.36,Baseline
+Edge-on Galaxies with Bulge,91.49,90.81,85.96,Baseline

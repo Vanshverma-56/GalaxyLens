@@ -1,0 +1,10 @@
+{
+  "checkpoint": "artifacts/checkpoints/class_balanced_best.pt",
+  "best_epoch": 9,
+  "best_validation_macro_f1": 0.7934178040029599,
+  "epochs_completed": 12,
+  "elapsed_seconds": 706.52,
+  "device": "cuda",
+  "test_set_used_for_selection": false,
+  "history_path": "reports/experiments/class_balanced/history.json"
+}

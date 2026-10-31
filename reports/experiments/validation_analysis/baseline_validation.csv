@@ -1,0 +1,1775 @@
+validation_position,true_label_id,true_label,predicted_label_id,predicted_label,confidence,correct
+0,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9998453855514526,True
+1,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.48260247707366943,True
+2,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.45589572191238403,True
+3,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998179078102112,True
+4,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8307920098304749,True
+5,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7544798254966736,True
+6,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9996470212936401,True
+7,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8954130411148071,True
+8,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.9835125803947449,False
+9,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9520936012268066,True
+10,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8421812057495117,True
+11,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.5948736071586609,False
+12,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.993179440498352,True
+13,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999567270278931,True
+14,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9597830772399902,True
+15,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.528767466545105,False
+16,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8137714266777039,False
+17,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.992396891117096,True
+18,0,Disturbed Galaxies,5,Barred Spiral Galaxies,0.7865656018257141,False
+19,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8529018759727478,True
+20,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9951487183570862,True
+21,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8160717487335205,True
+22,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9968245029449463,True
+23,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8591029644012451,True
+24,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9986452460289001,True
+25,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.5987510085105896,True
+26,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9591259956359863,True
+27,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.952205240726471,True
+28,1,Merging Galaxies,1,Merging Galaxies,0.9957833290100098,True
+29,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9970171451568604,True
+30,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.999434769153595,True
+31,1,Merging Galaxies,1,Merging Galaxies,0.9957991242408752,True
+32,5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,0.5198897123336792,False
+33,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9207538366317749,False
+34,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9961859583854675,False
+35,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9932149648666382,True
+36,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.7174462080001831,False
+37,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9936975836753845,True
+38,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9980675578117371,True
+39,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.6178858876228333,False
+40,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8930838704109192,True
+41,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9476705193519592,True
+42,1,Merging Galaxies,1,Merging Galaxies,0.9652708172798157,True
+43,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9637634754180908,True
+44,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6396386623382568,True
+45,2,Round Smooth Galaxies,0,Disturbed Galaxies,0.6902722120285034,False
+46,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5418149828910828,False
+47,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9923244714736938,False
+48,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9727109670639038,True
+49,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.6690984964370728,True
+50,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.626190721988678,True
+51,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9951820969581604,True
+52,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9800700545310974,True
+53,3,In-between Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.5151668787002563,False
+54,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7151908278465271,True
+55,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.978557288646698,True
+56,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9737029671669006,True
+57,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.999292254447937,False
+58,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9921746850013733,True
+59,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9224046468734741,False
+60,8,Edge-on Galaxies without Bulge,6,Unbarred Tight Spiral Galaxies,0.7329732179641724,False
+61,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9587012529373169,True
+62,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9981759786605835,True
+63,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.35582852363586426,True
+64,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.3769236207008362,True
+65,1,Merging Galaxies,1,Merging Galaxies,0.9999428987503052,True
+66,0,Disturbed Galaxies,0,Disturbed Galaxies,0.41545066237449646,True
+67,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9902151823043823,True
+68,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999535322189331,True
+69,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8362647891044617,True
+70,4,Cigar Shaped Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,0.788745105266571,False
+71,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.5716860890388489,True
+72,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9790713787078857,True
+73,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.8683357834815979,True
+74,1,Merging Galaxies,1,Merging Galaxies,0.999976634979248,True
+75,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7470967769622803,True
+76,1,Merging Galaxies,1,Merging Galaxies,0.9329913258552551,True
+77,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9652605056762695,True
+78,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999148845672607,True
+79,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9481073021888733,True
+80,1,Merging Galaxies,1,Merging Galaxies,0.9978943467140198,True
+81,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9523725509643555,True
+82,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9992889165878296,True
+83,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9879459142684937,True
+84,1,Merging Galaxies,1,Merging Galaxies,0.9901949763298035,True
+85,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,0.9640184640884399,False
+86,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9898396730422974,True
+87,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.9963500499725342,False
+88,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8871894478797913,True
+89,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.5720813274383545,True
+90,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9795531630516052,True
+91,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.6698630452156067,False
+92,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9789613485336304,True
+93,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.838380753993988,True
+94,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9879937171936035,True
+95,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999853372573853,True
+96,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.3850739896297455,False
+97,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9517977833747864,True
+98,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997602105140686,True
+99,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9225817918777466,True
+100,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7016991972923279,False
+101,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9723320603370667,False
+102,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.903496503829956,True
+103,1,Merging Galaxies,1,Merging Galaxies,0.9873551726341248,True
+104,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.89476078748703,True
+105,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9882661700248718,True
+106,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9882411360740662,True
+107,1,Merging Galaxies,1,Merging Galaxies,0.9498505592346191,True
+108,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.655720055103302,True
+109,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9978815913200378,True
+110,1,Merging Galaxies,1,Merging Galaxies,0.9794681668281555,True
+111,1,Merging Galaxies,1,Merging Galaxies,0.9999102354049683,True
+112,9,Edge-on Galaxies with Bulge,1,Merging Galaxies,0.8986749053001404,False
+113,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.7887414693832397,False
+114,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.975599467754364,False
+115,0,Disturbed Galaxies,0,Disturbed Galaxies,0.959193766117096,True
+116,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9956175088882446,True
+117,1,Merging Galaxies,1,Merging Galaxies,0.9954026937484741,True
+118,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9976333379745483,True
+119,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9780130982398987,True
+120,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6197603344917297,False
+121,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9992389678955078,True
+122,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9984686970710754,True
+123,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8446850776672363,True
+124,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.42255672812461853,False
+125,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7898094654083252,False
+126,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9983561635017395,True
+127,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.5180127024650574,True
+128,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9370790719985962,True
+129,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.919341504573822,True
+130,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9922314882278442,True
+131,1,Merging Galaxies,9,Edge-on Galaxies with Bulge,0.530362069606781,False
+132,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9958577752113342,True
+133,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9972580671310425,True
+134,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,0.5741382837295532,False
+135,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,0.6307865381240845,False
+136,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9561887979507446,True
+137,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8929852843284607,True
+138,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9925081133842468,True
+139,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9682928919792175,True
+140,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9911552667617798,True
+141,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.934827983379364,True
+142,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.6336603760719299,False
+143,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8314523696899414,True
+144,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.8498402237892151,True
+145,1,Merging Galaxies,1,Merging Galaxies,0.9320123791694641,True
+146,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.34783798456192017,True
+147,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9892701506614685,True
+148,3,In-between Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.8098950386047363,False
+149,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.453818142414093,False
+150,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8800519108772278,True
+151,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9969237446784973,True
+152,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.46270284056663513,True
+153,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9504046440124512,True
+154,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.82933109998703,True
+155,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9995461106300354,True
+156,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9660798907279968,True
+157,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8752679228782654,False
+158,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9384388327598572,False
+159,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9771889448165894,True
+160,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998737573623657,True
+161,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.971574604511261,True
+162,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8764634728431702,True
+163,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9941950440406799,True
+164,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9623620510101318,True
+165,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.9800395369529724,False
+166,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.928724467754364,True
+167,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9802051186561584,True
+168,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.47241315245628357,False
+169,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9760361313819885,True
+170,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9051885008811951,True
+171,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9952461123466492,True
+172,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.9260733723640442,False
+173,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9959255456924438,True
+174,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9214193224906921,True
+175,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.826884925365448,True
+176,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.7045344114303589,True
+177,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9994750618934631,True
+178,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7343044281005859,False
+179,3,In-between Round Smooth Galaxies,1,Merging Galaxies,0.6428254842758179,False
+180,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9489501118659973,True
+181,9,Edge-on Galaxies with Bulge,1,Merging Galaxies,0.43635377287864685,False
+182,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9409697651863098,True
+183,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999223947525024,True
+184,1,Merging Galaxies,1,Merging Galaxies,0.9993484616279602,True
+185,1,Merging Galaxies,1,Merging Galaxies,0.9997923970222473,True
+186,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9962471127510071,True
+187,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9890344142913818,True
+188,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997112154960632,True
+189,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7233919501304626,True
+190,1,Merging Galaxies,1,Merging Galaxies,0.9999163150787354,True
+191,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9993709921836853,True
+192,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9548001885414124,True
+193,1,Merging Galaxies,1,Merging Galaxies,0.9997950196266174,True
+194,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8999549746513367,True
+195,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9333800077438354,True
+196,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9959891438484192,True
+197,1,Merging Galaxies,1,Merging Galaxies,0.9060856699943542,True
+198,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.6879094243049622,False
+199,6,Unbarred Tight Spiral Galaxies,8,Edge-on Galaxies without Bulge,0.6621990203857422,False
+200,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997188448905945,True
+201,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.7678821086883545,False
+202,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9171024560928345,True
+203,9,Edge-on Galaxies with Bulge,0,Disturbed Galaxies,0.9640651941299438,False
+204,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.988838791847229,True
+205,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9953868985176086,True
+206,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.5956048369407654,True
+207,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9590544700622559,True
+208,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998412132263184,True
+209,1,Merging Galaxies,1,Merging Galaxies,0.5443710088729858,True
+210,0,Disturbed Galaxies,0,Disturbed Galaxies,0.928303599357605,True
+211,0,Disturbed Galaxies,9,Edge-on Galaxies with Bulge,0.7987132668495178,False
+212,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9979671835899353,True
+213,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999422550201416,True
+214,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.5975016951560974,True
+215,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9889455437660217,True
+216,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9541870951652527,True
+217,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9298866391181946,True
+218,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,0.5068201422691345,False
+219,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9951850771903992,True
+220,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.822141170501709,True
+221,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9585981369018555,True
+222,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9913679957389832,True
+223,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.7059429883956909,False
+224,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.911116361618042,True
+225,2,Round Smooth Galaxies,1,Merging Galaxies,0.9992011189460754,False
+226,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9982789754867554,True
+227,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9694651961326599,True
+228,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8759011030197144,True
+229,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.8257284760475159,False
+230,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9839975833892822,True
+231,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9868349432945251,True
+232,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7878080010414124,True
+233,7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,0.8411902785301208,False
+234,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9937862157821655,True
+235,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7974083423614502,True
+236,1,Merging Galaxies,1,Merging Galaxies,0.9932892918586731,True
+237,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.982693612575531,True
+238,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9429003000259399,True
+239,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9812488555908203,True
+240,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9906653165817261,True
+241,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9593024849891663,True
+242,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9996446371078491,True
+243,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9928202033042908,True
+244,1,Merging Galaxies,1,Merging Galaxies,0.7699536681175232,True
+245,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9936023354530334,True
+246,1,Merging Galaxies,1,Merging Galaxies,0.9570852518081665,True
+247,5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,0.984119176864624,False
+248,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5029590129852295,False
+249,1,Merging Galaxies,1,Merging Galaxies,0.9999432563781738,True
+250,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9948930740356445,True
+251,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999139308929443,True
+252,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8094637989997864,True
+253,1,Merging Galaxies,1,Merging Galaxies,0.9976596832275391,True
+254,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9614545106887817,True
+255,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8047865629196167,True
+256,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.3915656507015228,False
+257,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.517197847366333,True
+258,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.99415522813797,True
+259,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5235944390296936,True
+260,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9624553918838501,False
+261,8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,0.9565537571907043,False
+262,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9917639493942261,True
+263,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999828577041626,True
+264,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9963449835777283,True
+265,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9940595626831055,True
+266,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.968268871307373,True
+267,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.646440327167511,True
+268,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.7446442246437073,True
+269,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.997593343257904,True
+270,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.5222218036651611,True
+271,1,Merging Galaxies,1,Merging Galaxies,0.9997387528419495,True
+272,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.862484335899353,True
+273,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9251399040222168,True
+274,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9982397556304932,True
+275,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.989443838596344,True
+276,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999728202819824,True
+277,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9842804670333862,True
+278,5,Barred Spiral Galaxies,1,Merging Galaxies,0.9891685247421265,False
+279,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9537026286125183,True
+280,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9934841990470886,True
+281,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.4135190546512604,False
+282,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.876467227935791,True
+283,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7019476294517517,True
+284,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9880313873291016,True
+285,7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,0.6033487915992737,False
+286,5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,0.9985338449478149,False
+287,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9873059988021851,True
+288,1,Merging Galaxies,1,Merging Galaxies,0.9972087740898132,True
+289,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,0.6688666343688965,False
+290,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5057447552680969,True
+291,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9201208353042603,True
+292,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9996756315231323,True
+293,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9954967498779297,True
+294,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9864988327026367,True
+295,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9986175298690796,True
+296,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9639575481414795,True
+297,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8310188055038452,True
+298,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999455213546753,True
+299,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.5778917670249939,False
+300,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9920876622200012,True
+301,1,Merging Galaxies,1,Merging Galaxies,0.9574425220489502,True
+302,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7694112658500671,False
+303,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9846014976501465,True
+304,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9996510744094849,True
+305,1,Merging Galaxies,1,Merging Galaxies,0.9998829364776611,True
+306,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6367827653884888,False
+307,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999434947967529,True
+308,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9686033725738525,True
+309,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9972297549247742,True
+310,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8197829127311707,True
+311,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9690521955490112,True
+312,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9641481041908264,True
+313,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9994795918464661,True
+314,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999883770942688,True
+315,1,Merging Galaxies,1,Merging Galaxies,0.8624657392501831,True
+316,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9731398820877075,True
+317,7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,0.7439308166503906,False
+318,7,Unbarred Loose Spiral Galaxies,2,Round Smooth Galaxies,0.5045074820518494,False
+319,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9035082459449768,True
+320,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,0.6069294214248657,False
+321,1,Merging Galaxies,1,Merging Galaxies,0.9767509698867798,True
+322,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9131382703781128,True
+323,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6992558836936951,True
+324,1,Merging Galaxies,1,Merging Galaxies,0.999086856842041,True
+325,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9562632441520691,True
+326,1,Merging Galaxies,1,Merging Galaxies,0.6962160468101501,True
+327,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9601762890815735,True
+328,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9377014636993408,True
+329,4,Cigar Shaped Smooth Galaxies,9,Edge-on Galaxies with Bulge,0.5932531356811523,False
+330,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6584224700927734,True
+331,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8154013156890869,True
+332,8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,0.9955638647079468,False
+333,1,Merging Galaxies,1,Merging Galaxies,0.9999971389770508,True
+334,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9321069121360779,False
+335,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9570995569229126,True
+336,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8728810548782349,True
+337,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9988760352134705,True
+338,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9937098026275635,True
+339,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.961783766746521,True
+340,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9943975210189819,True
+341,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9605956673622131,True
+342,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7975227236747742,True
+343,7,Unbarred Loose Spiral Galaxies,9,Edge-on Galaxies with Bulge,0.8713772892951965,False
+344,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998451471328735,True
+345,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.98853999376297,True
+346,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9985840320587158,True
+347,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9986365437507629,True
+348,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9933536052703857,True
+349,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9916648268699646,True
+350,6,Unbarred Tight Spiral Galaxies,5,Barred Spiral Galaxies,0.5829194188117981,False
+351,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6091287732124329,True
+352,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9936258792877197,True
+353,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9884299039840698,True
+354,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9672045707702637,True
+355,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8657914400100708,True
+356,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9815948009490967,True
+357,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9996576309204102,True
+358,1,Merging Galaxies,6,Unbarred Tight Spiral Galaxies,0.9478422999382019,False
+359,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.4433404505252838,True
+360,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.5738316178321838,True
+361,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9912168979644775,True
+362,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9931725859642029,True
+363,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9831082224845886,True
+364,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5594395995140076,False
+365,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.4958246350288391,False
+366,1,Merging Galaxies,1,Merging Galaxies,0.9962526559829712,True
+367,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8180286288261414,False
+368,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9825970530509949,True
+369,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6493939161300659,False
+370,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.7491262555122375,False
+371,1,Merging Galaxies,3,In-between Round Smooth Galaxies,0.38326597213745117,False
+372,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999237060546875,True
+373,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.72504723072052,False
+374,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9984233379364014,True
+375,1,Merging Galaxies,0,Disturbed Galaxies,0.5822620987892151,False
+376,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.9922267198562622,False
+377,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.8287210464477539,True
+378,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9762274026870728,True
+379,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7161442041397095,True
+380,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9979117512702942,True
+381,1,Merging Galaxies,1,Merging Galaxies,0.9953572154045105,True
+382,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9995594620704651,True
+383,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9795522093772888,True
+384,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9994401335716248,True
+385,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.997738242149353,True
+386,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997146725654602,True
+387,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9953926801681519,True
+388,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6439054012298584,True
+389,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9964264035224915,True
+390,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9881539940834045,True
+391,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.976702868938446,True
+392,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.8844963908195496,True
+393,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.410794198513031,False
+394,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.990337610244751,False
+395,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9993500113487244,True
+396,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9961360096931458,True
+397,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.5074968338012695,False
+398,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9505537152290344,True
+399,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.9587015509605408,False
+400,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9805410504341125,True
+401,0,Disturbed Galaxies,1,Merging Galaxies,0.4292432367801666,False
+402,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8210437297821045,False
+403,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9860246777534485,True
+404,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9934393763542175,True
+405,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9852762818336487,True
+406,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998781681060791,True
+407,1,Merging Galaxies,1,Merging Galaxies,0.9616830945014954,True
+408,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9782893061637878,True
+409,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9977385997772217,True
+410,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.881766140460968,True
+411,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7822408676147461,True
+412,1,Merging Galaxies,1,Merging Galaxies,0.999761164188385,True
+413,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.6977910399436951,False
+414,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8945035934448242,True
+415,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9729117751121521,True
+416,1,Merging Galaxies,1,Merging Galaxies,0.9999589920043945,True
+417,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9991490840911865,True
+418,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9486673474311829,True
+419,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9262666702270508,True
+420,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.895421028137207,True
+421,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6153954863548279,True
+422,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9256136417388916,True
+423,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9886562824249268,True
+424,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5472260117530823,False
+425,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997557997703552,True
+426,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9902556538581848,True
+427,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9909809231758118,True
+428,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.6249778866767883,False
+429,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999833106994629,True
+430,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8058816194534302,True
+431,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9011901021003723,True
+432,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9799791574478149,True
+433,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9379781484603882,True
+434,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9862183928489685,True
+435,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.7212067246437073,False
+436,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9868103265762329,True
+437,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9728926420211792,True
+438,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9007583856582642,True
+439,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.7817273139953613,True
+440,1,Merging Galaxies,1,Merging Galaxies,0.9967237114906311,True
+441,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9982376098632812,True
+442,1,Merging Galaxies,1,Merging Galaxies,0.9532139897346497,True
+443,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9731908440589905,True
+444,2,Round Smooth Galaxies,0,Disturbed Galaxies,0.9344857931137085,False
+445,1,Merging Galaxies,1,Merging Galaxies,0.9994038343429565,True
+446,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9631062150001526,True
+447,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9979321956634521,True
+448,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9632322788238525,False
+449,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7385510206222534,True
+450,8,Edge-on Galaxies without Bulge,0,Disturbed Galaxies,0.953772783279419,False
+451,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9130855202674866,True
+452,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,0.4224277436733246,False
+453,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9690749049186707,True
+454,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.616010308265686,True
+455,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9994844198226929,True
+456,1,Merging Galaxies,1,Merging Galaxies,0.9994480013847351,True
+457,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9989936947822571,True
+458,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.941689133644104,True
+459,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9168183207511902,True
+460,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.999942421913147,True
+461,1,Merging Galaxies,1,Merging Galaxies,0.9759020209312439,True
+462,2,Round Smooth Galaxies,1,Merging Galaxies,0.8000988364219666,False
+463,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8782089352607727,True
+464,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.9774987697601318,False
+465,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9986617565155029,True
+466,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6914792656898499,True
+467,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999407529830933,True
+468,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9922926425933838,True
+469,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9990347623825073,True
+470,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.832207202911377,True
+471,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.650350034236908,True
+472,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9269148111343384,True
+473,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6422954797744751,False
+474,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9067692160606384,True
+475,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8246948719024658,False
+476,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7759065628051758,True
+477,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999550580978394,True
+478,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.4880358874797821,False
+479,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9549147486686707,True
+480,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9835785627365112,True
+481,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9907299876213074,True
+482,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.737772524356842,True
+483,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9943692088127136,True
+484,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.996483325958252,True
+485,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9277603030204773,True
+486,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9940840601921082,True
+487,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9957656860351562,True
+488,0,Disturbed Galaxies,0,Disturbed Galaxies,0.924176037311554,True
+489,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.6647107005119324,False
+490,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9978208541870117,True
+491,1,Merging Galaxies,1,Merging Galaxies,0.9633232355117798,True
+492,7,Unbarred Loose Spiral Galaxies,2,Round Smooth Galaxies,0.467254102230072,False
+493,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9973838925361633,True
+494,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9772962927818298,True
+495,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9016096591949463,True
+496,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8279704451560974,True
+497,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997379183769226,True
+498,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9939531683921814,True
+499,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9913376569747925,True
+500,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998311996459961,True
+501,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9989427924156189,True
+502,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.994175374507904,True
+503,1,Merging Galaxies,6,Unbarred Tight Spiral Galaxies,0.4339277446269989,False
+504,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9732391238212585,True
+505,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997530579566956,True
+506,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9826734662055969,True
+507,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9778283834457397,True
+508,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.7879165410995483,False
+509,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9839974641799927,True
+510,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9971925616264343,True
+511,1,Merging Galaxies,0,Disturbed Galaxies,0.6728256344795227,False
+512,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9823091626167297,True
+513,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9478082060813904,True
+514,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8902245163917542,False
+515,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9940446019172668,True
+516,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7613620758056641,True
+517,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9993813037872314,True
+518,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5201135277748108,True
+519,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9365184903144836,True
+520,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9434361457824707,True
+521,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.5090838670730591,False
+522,9,Edge-on Galaxies with Bulge,7,Unbarred Loose Spiral Galaxies,0.4077727794647217,False
+523,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999101161956787,True
+524,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9479817748069763,True
+525,7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,0.6720963716506958,False
+526,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.98896723985672,True
+527,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7530457377433777,False
+528,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9628264307975769,True
+529,0,Disturbed Galaxies,9,Edge-on Galaxies with Bulge,0.33795449137687683,False
+530,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9992274045944214,True
+531,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9301246404647827,True
+532,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9979121088981628,True
+533,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9856874346733093,True
+534,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9997208714485168,True
+535,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.9643155336380005,False
+536,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9918728470802307,False
+537,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9992714524269104,True
+538,1,Merging Galaxies,1,Merging Galaxies,0.9860098361968994,True
+539,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9778642058372498,True
+540,1,Merging Galaxies,1,Merging Galaxies,0.9994844198226929,True
+541,0,Disturbed Galaxies,0,Disturbed Galaxies,0.7813864946365356,True
+542,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9975335597991943,True
+543,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.4994746148586273,False
+544,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.902350664138794,True
+545,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7769555449485779,True
+546,1,Merging Galaxies,1,Merging Galaxies,0.9999853372573853,True
+547,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9969162940979004,True
+548,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7989447712898254,True
+549,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9871662259101868,True
+550,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.904802143573761,True
+551,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8807046413421631,True
+552,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9995403289794922,True
+553,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9382184147834778,False
+554,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9923475980758667,True
+555,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9747592806816101,True
+556,0,Disturbed Galaxies,9,Edge-on Galaxies with Bulge,0.6690173149108887,False
+557,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.5359706282615662,True
+558,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9853853583335876,True
+559,1,Merging Galaxies,1,Merging Galaxies,0.9732181429862976,True
+560,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6405059695243835,True
+561,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9750810861587524,True
+562,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8682328462600708,True
+563,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9993799924850464,True
+564,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8122209906578064,True
+565,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9698711037635803,True
+566,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9895980358123779,False
+567,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.998762845993042,True
+568,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.6060782074928284,True
+569,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.6158134937286377,False
+570,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8694384098052979,False
+571,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.739505410194397,True
+572,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9829506278038025,True
+573,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9917861819267273,True
+574,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9653682708740234,True
+575,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.961955726146698,True
+576,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9635993242263794,True
+577,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9386293292045593,True
+578,1,Merging Galaxies,1,Merging Galaxies,0.9443165063858032,True
+579,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9969821572303772,True
+580,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.755009114742279,True
+581,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9934420585632324,True
+582,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9150491952896118,True
+583,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9847326874732971,True
+584,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9831550121307373,True
+585,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9555580615997314,True
+586,0,Disturbed Galaxies,0,Disturbed Galaxies,0.986136794090271,True
+587,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.333625465631485,False
+588,1,Merging Galaxies,1,Merging Galaxies,0.7982656359672546,True
+589,0,Disturbed Galaxies,0,Disturbed Galaxies,0.989733874797821,True
+590,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.37474390864372253,True
+591,1,Merging Galaxies,1,Merging Galaxies,0.9997180104255676,True
+592,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.8507854342460632,False
+593,1,Merging Galaxies,1,Merging Galaxies,0.9999293088912964,True
+594,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9969797134399414,True
+595,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9758199453353882,True
+596,0,Disturbed Galaxies,1,Merging Galaxies,0.5965505838394165,False
+597,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.4629576802253723,True
+598,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9204154014587402,True
+599,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9741517901420593,True
+600,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5246190428733826,True
+601,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9929753541946411,False
+602,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,0.9087629318237305,False
+603,1,Merging Galaxies,1,Merging Galaxies,0.9999485015869141,True
+604,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.998742401599884,True
+605,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,0.6924817562103271,False
+606,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8464468121528625,True
+607,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8311558365821838,True
+608,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9814597368240356,True
+609,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9393107891082764,True
+610,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.98614501953125,True
+611,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9939953684806824,True
+612,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9217376708984375,True
+613,1,Merging Galaxies,2,Round Smooth Galaxies,0.9241749048233032,False
+614,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9369869232177734,True
+615,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9988247752189636,True
+616,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9592822790145874,True
+617,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.992323637008667,True
+618,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.862381637096405,False
+619,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9928368926048279,True
+620,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9990118741989136,True
+621,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9864503145217896,True
+622,1,Merging Galaxies,1,Merging Galaxies,0.9995071887969971,True
+623,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9950215816497803,True
+624,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9994040727615356,True
+625,1,Merging Galaxies,1,Merging Galaxies,1.0,True
+626,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997753500938416,True
+627,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9990677237510681,True
+628,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9235416054725647,True
+629,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9440240263938904,True
+630,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9081946611404419,True
+631,5,Barred Spiral Galaxies,1,Merging Galaxies,0.9953357577323914,False
+632,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9970157146453857,True
+633,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.50111985206604,True
+634,2,Round Smooth Galaxies,0,Disturbed Galaxies,0.5336008667945862,False
+635,1,Merging Galaxies,1,Merging Galaxies,0.9989664554595947,True
+636,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9994093179702759,True
+637,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7562119960784912,True
+638,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8978832364082336,True
+639,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9813955426216125,True
+640,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9989042282104492,True
+641,2,Round Smooth Galaxies,1,Merging Galaxies,0.9971580505371094,False
+642,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.9630666375160217,False
+643,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.996755063533783,True
+644,1,Merging Galaxies,1,Merging Galaxies,0.927176296710968,True
+645,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9926480054855347,True
+646,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999681711196899,True
+647,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8740209341049194,True
+648,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7945163249969482,True
+649,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7652309536933899,True
+650,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9949317574501038,True
+651,8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,0.7347682118415833,False
+652,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.4268256723880768,True
+653,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8779337406158447,True
+654,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9545576572418213,True
+655,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9981217980384827,True
+656,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8926414847373962,True
+657,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8184897303581238,True
+658,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6015941500663757,True
+659,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9876766204833984,True
+660,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9328250885009766,True
+661,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9441595077514648,True
+662,1,Merging Galaxies,1,Merging Galaxies,0.9998500347137451,True
+663,1,Merging Galaxies,1,Merging Galaxies,0.960248589515686,True
+664,5,Barred Spiral Galaxies,1,Merging Galaxies,0.5002381205558777,False
+665,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8919209837913513,True
+666,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9691689610481262,True
+667,4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6292157173156738,False
+668,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.7150862812995911,False
+669,1,Merging Galaxies,1,Merging Galaxies,0.9893538951873779,True
+670,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.638987123966217,False
+671,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9737979173660278,True
+672,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8544533848762512,True
+673,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9895355105400085,True
+674,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.999174177646637,True
+675,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9603285193443298,True
+676,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8813706040382385,True
+677,4,Cigar Shaped Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,0.4663415253162384,False
+678,1,Merging Galaxies,0,Disturbed Galaxies,0.5380080342292786,False
+679,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9979554414749146,True
+680,1,Merging Galaxies,1,Merging Galaxies,0.999219536781311,True
+681,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9995137453079224,True
+682,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9975144863128662,True
+683,5,Barred Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,0.9475623965263367,False
+684,4,Cigar Shaped Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.9285095930099487,False
+685,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.6015722751617432,True
+686,1,Merging Galaxies,1,Merging Galaxies,0.8383762836456299,True
+687,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9179531335830688,True
+688,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8842118382453918,True
+689,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9787160754203796,True
+690,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6944394707679749,True
+691,0,Disturbed Galaxies,0,Disturbed Galaxies,0.6491573452949524,True
+692,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7473071813583374,True
+693,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9002820253372192,True
+694,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.7339598536491394,False
+695,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9881862998008728,True
+696,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9981733560562134,True
+697,1,Merging Galaxies,1,Merging Galaxies,0.9951289892196655,True
+698,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7339171171188354,True
+699,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9971438050270081,True
+700,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6742437481880188,False
+701,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.6141582727432251,True
+702,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9869900345802307,True
+703,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8701996207237244,True
+704,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.4994569420814514,True
+705,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8705055117607117,False
+706,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.5047649145126343,False
+707,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9979223608970642,True
+708,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6461254358291626,True
+709,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9960755705833435,True
+710,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9720817804336548,True
+711,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8525176048278809,True
+712,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9920358061790466,True
+713,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9234113097190857,True
+714,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9305496215820312,True
+715,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9991983771324158,True
+716,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9973381161689758,True
+717,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9148041009902954,True
+718,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9612024426460266,True
+719,1,Merging Galaxies,1,Merging Galaxies,0.9657749533653259,True
+720,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7531059384346008,True
+721,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.605223536491394,False
+722,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9379564523696899,True
+723,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9751304984092712,True
+724,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9922027587890625,True
+725,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9898378849029541,True
+726,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.967347264289856,True
+727,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7779111266136169,True
+728,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9962843060493469,True
+729,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.937344491481781,True
+730,1,Merging Galaxies,1,Merging Galaxies,0.9999929666519165,True
+731,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.531821072101593,False
+732,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9946462512016296,True
+733,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5740022659301758,True
+734,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9801325798034668,True
+735,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9888880848884583,True
+736,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999198913574219,True
+737,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9994640946388245,True
+738,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9993845224380493,True
+739,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.3725775182247162,False
+740,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.568877637386322,False
+741,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7601990699768066,True
+742,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9764140248298645,True
+743,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.89520663022995,True
+744,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9994897842407227,True
+745,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9815114140510559,True
+746,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.7248901128768921,False
+747,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9697859883308411,False
+748,4,Cigar Shaped Smooth Galaxies,8,Edge-on Galaxies without Bulge,0.5428166389465332,False
+749,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9955741167068481,True
+750,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9977266192436218,True
+751,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8907948732376099,True
+752,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9762520790100098,True
+753,1,Merging Galaxies,1,Merging Galaxies,0.9932749271392822,True
+754,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8683192133903503,True
+755,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8082343935966492,False
+756,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7475000023841858,False
+757,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9899277091026306,True
+758,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8635137677192688,True
+759,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9851705431938171,True
+760,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,0.6615777015686035,False
+761,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.979138195514679,True
+762,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998689889907837,True
+763,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9647976756095886,True
+764,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.973425030708313,True
+765,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9873802661895752,True
+766,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9835739135742188,True
+767,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.7696233987808228,False
+768,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8380503058433533,True
+769,0,Disturbed Galaxies,0,Disturbed Galaxies,0.681725800037384,True
+770,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.991815984249115,True
+771,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9676997661590576,True
+772,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9980880618095398,True
+773,1,Merging Galaxies,1,Merging Galaxies,0.9993200302124023,True
+774,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.8523955345153809,False
+775,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998531341552734,True
+776,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7969952821731567,True
+777,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9874536991119385,True
+778,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9992328882217407,True
+779,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9865602254867554,True
+780,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5725321173667908,True
+781,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9904481768608093,True
+782,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6454054117202759,False
+783,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9440522789955139,True
+784,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.586302638053894,False
+785,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9901593327522278,True
+786,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9953622221946716,True
+787,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998385906219482,True
+788,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7577690482139587,True
+789,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8715420365333557,True
+790,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9960007071495056,True
+791,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5433281064033508,False
+792,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9383199214935303,True
+793,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9975734353065491,True
+794,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9813234210014343,True
+795,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5047030448913574,False
+796,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7254427671432495,False
+797,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.988488495349884,True
+798,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8899659514427185,True
+799,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9989653825759888,True
+800,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.5044344067573547,True
+801,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8839131593704224,True
+802,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.98526531457901,True
+803,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9981220364570618,True
+804,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9938427209854126,True
+805,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9976987242698669,True
+806,1,Merging Galaxies,1,Merging Galaxies,0.9996968507766724,True
+807,1,Merging Galaxies,1,Merging Galaxies,0.998769223690033,True
+808,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9759160280227661,True
+809,6,Unbarred Tight Spiral Galaxies,3,In-between Round Smooth Galaxies,0.80474853515625,False
+810,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9471885561943054,True
+811,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9906931519508362,True
+812,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9196284413337708,True
+813,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.38818758726119995,False
+814,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.7835302948951721,True
+815,1,Merging Galaxies,1,Merging Galaxies,0.9999974966049194,True
+816,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9882621169090271,True
+817,6,Unbarred Tight Spiral Galaxies,5,Barred Spiral Galaxies,0.6697884202003479,False
+818,1,Merging Galaxies,1,Merging Galaxies,0.9947522878646851,True
+819,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9936315417289734,True
+820,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9847374558448792,True
+821,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9934746623039246,True
+822,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.758380115032196,True
+823,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9928931593894958,True
+824,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9820730686187744,True
+825,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9990424513816833,True
+826,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8460325598716736,True
+827,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8549706935882568,True
+828,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6666632890701294,True
+829,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9980711340904236,True
+830,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6809922456741333,False
+831,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.8390015959739685,False
+832,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,0.8920455574989319,False
+833,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9593960642814636,True
+834,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9997876286506653,True
+835,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8706782460212708,True
+836,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9779038429260254,True
+837,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.996856689453125,True
+838,1,Merging Galaxies,1,Merging Galaxies,0.923693835735321,True
+839,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.991387665271759,True
+840,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8594351410865784,True
+841,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9969063401222229,True
+842,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8919764757156372,True
+843,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9887845516204834,True
+844,8,Edge-on Galaxies without Bulge,0,Disturbed Galaxies,0.4695829451084137,False
+845,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.96613609790802,True
+846,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8416086435317993,True
+847,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9248337149620056,True
+848,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9810667037963867,True
+849,1,Merging Galaxies,2,Round Smooth Galaxies,0.9904040098190308,False
+850,1,Merging Galaxies,1,Merging Galaxies,0.9995201826095581,True
+851,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.926312267780304,True
+852,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.4015122056007385,False
+853,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6602312326431274,True
+854,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9990739822387695,True
+855,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7130352854728699,False
+856,0,Disturbed Galaxies,1,Merging Galaxies,0.9596847295761108,False
+857,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.998977541923523,True
+858,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8511886596679688,True
+859,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9998761415481567,True
+860,1,Merging Galaxies,1,Merging Galaxies,0.9592291116714478,True
+861,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9667773246765137,True
+862,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9872811436653137,True
+863,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9315506219863892,True
+864,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9991161227226257,True
+865,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9960469603538513,True
+866,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9024186134338379,True
+867,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.5109393000602722,False
+868,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6644539833068848,True
+869,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.816620945930481,True
+870,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6974499225616455,True
+871,0,Disturbed Galaxies,8,Edge-on Galaxies without Bulge,0.33154794573783875,False
+872,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9987040758132935,True
+873,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9660965800285339,True
+874,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9726072549819946,True
+875,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8753718733787537,False
+876,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9985623955726624,True
+877,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5610464215278625,True
+878,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9991600513458252,True
+879,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9959694147109985,True
+880,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.536361575126648,True
+881,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9398342370986938,True
+882,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9996153116226196,True
+883,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6365406513214111,True
+884,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9850265383720398,True
+885,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.850727915763855,True
+886,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,0.5768154859542847,False
+887,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9202927947044373,True
+888,0,Disturbed Galaxies,8,Edge-on Galaxies without Bulge,0.9945588707923889,False
+889,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7044822573661804,False
+890,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999314546585083,True
+891,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8769662976264954,False
+892,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7043279409408569,True
+893,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9966712594032288,True
+894,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.81514972448349,True
+895,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9545943737030029,True
+896,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9949319958686829,True
+897,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9797101020812988,True
+898,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8556472063064575,True
+899,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7004325985908508,False
+900,1,Merging Galaxies,1,Merging Galaxies,0.9998800754547119,True
+901,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9856775999069214,True
+902,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9864163398742676,True
+903,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7607961893081665,False
+904,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9963104128837585,True
+905,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9175645112991333,True
+906,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8889175057411194,True
+907,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9992115497589111,True
+908,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9623844027519226,True
+909,1,Merging Galaxies,1,Merging Galaxies,0.9999985694885254,True
+910,0,Disturbed Galaxies,0,Disturbed Galaxies,0.954200029373169,True
+911,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9946069121360779,True
+912,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9796180129051208,True
+913,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.46178972721099854,True
+914,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9984473586082458,True
+915,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9789712429046631,True
+916,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999016523361206,True
+917,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9842242002487183,True
+918,1,Merging Galaxies,9,Edge-on Galaxies with Bulge,0.8217558860778809,False
+919,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9089104533195496,True
+920,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9380235075950623,False
+921,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.5263077616691589,True
+922,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997966885566711,True
+923,1,Merging Galaxies,3,In-between Round Smooth Galaxies,0.4846309423446655,False
+924,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6168612837791443,True
+925,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9841101169586182,True
+926,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9974076151847839,True
+927,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9567566514015198,True
+928,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7593311667442322,True
+929,1,Merging Galaxies,1,Merging Galaxies,0.9985994696617126,True
+930,1,Merging Galaxies,1,Merging Galaxies,0.9998716115951538,True
+931,1,Merging Galaxies,1,Merging Galaxies,0.9997768998146057,True
+932,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9779567718505859,True
+933,1,Merging Galaxies,1,Merging Galaxies,0.9211068749427795,True
+934,1,Merging Galaxies,1,Merging Galaxies,0.9999830722808838,True
+935,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9957082271575928,True
+936,1,Merging Galaxies,1,Merging Galaxies,0.9627142548561096,True
+937,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9930532574653625,True
+938,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8191045522689819,True
+939,0,Disturbed Galaxies,6,Unbarred Tight Spiral Galaxies,0.9954019784927368,False
+940,5,Barred Spiral Galaxies,8,Edge-on Galaxies without Bulge,0.8122661709785461,False
+941,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9991507530212402,True
+942,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.8918197154998779,False
+943,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9977355003356934,True
+944,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9140945076942444,True
+945,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.862680196762085,True
+946,1,Merging Galaxies,1,Merging Galaxies,0.970999002456665,True
+947,3,In-between Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,0.7593240141868591,False
+948,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.3350881040096283,True
+949,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9916025996208191,True
+950,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9775334000587463,True
+951,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9996300935745239,True
+952,1,Merging Galaxies,1,Merging Galaxies,0.9706594944000244,True
+953,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.986040472984314,True
+954,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.91249680519104,True
+955,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9990070462226868,True
+956,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.7261678576469421,True
+957,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9806751608848572,True
+958,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9496092796325684,True
+959,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.6697778701782227,False
+960,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9990389347076416,True
+961,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997994303703308,True
+962,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9436166882514954,True
+963,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9529812335968018,True
+964,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7656710743904114,True
+965,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.5365443825721741,True
+966,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7295696139335632,True
+967,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9823653101921082,True
+968,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9993807077407837,True
+969,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8078563809394836,True
+970,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7228869199752808,False
+971,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6284288167953491,True
+972,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9505196809768677,True
+973,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.805272102355957,False
+974,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9632505178451538,True
+975,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9882263541221619,True
+976,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9992602467536926,True
+977,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9978475570678711,True
+978,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9951587319374084,True
+979,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9409919381141663,True
+980,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7717670798301697,True
+981,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8159770369529724,True
+982,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5065057277679443,False
+983,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9772736430168152,True
+984,5,Barred Spiral Galaxies,2,Round Smooth Galaxies,0.6432817578315735,False
+985,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999034404754639,True
+986,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9379577040672302,True
+987,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8701093792915344,True
+988,3,In-between Round Smooth Galaxies,1,Merging Galaxies,0.9995255470275879,False
+989,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9978645443916321,True
+990,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7477240562438965,True
+991,1,Merging Galaxies,1,Merging Galaxies,0.9995566010475159,True
+992,1,Merging Galaxies,1,Merging Galaxies,0.999813973903656,True
+993,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7813022136688232,True
+994,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9988804459571838,True
+995,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9397503137588501,True
+996,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7836740016937256,True
+997,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9796617031097412,True
+998,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9655000567436218,True
+999,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9458375573158264,True
+1000,7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,0.8636444807052612,False
+1001,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9989043474197388,True
+1002,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9989598989486694,True
+1003,1,Merging Galaxies,1,Merging Galaxies,0.5908743143081665,True
+1004,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9943400025367737,True
+1005,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7761842608451843,False
+1006,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7206630706787109,True
+1007,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8882257342338562,True
+1008,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8110748529434204,True
+1009,1,Merging Galaxies,1,Merging Galaxies,0.9983799457550049,True
+1010,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9989503026008606,True
+1011,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.47409024834632874,True
+1012,7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,0.6074603199958801,False
+1013,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9365736246109009,True
+1014,0,Disturbed Galaxies,0,Disturbed Galaxies,0.5218693017959595,True
+1015,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9711118340492249,True
+1016,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9883486032485962,True
+1017,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9936227202415466,True
+1018,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.7167741656303406,False
+1019,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,0.6098970174789429,False
+1020,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9295949339866638,True
+1021,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999361038208008,True
+1022,1,Merging Galaxies,1,Merging Galaxies,0.9978092312812805,True
+1023,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9235894083976746,True
+1024,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7212142944335938,False
+1025,0,Disturbed Galaxies,0,Disturbed Galaxies,0.831299364566803,True
+1026,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5759792923927307,True
+1027,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7844944596290588,True
+1028,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.8394289016723633,False
+1029,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9806773066520691,True
+1030,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.34684762358665466,True
+1031,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.922887921333313,False
+1032,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9793896079063416,True
+1033,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9503334760665894,True
+1034,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9755658507347107,True
+1035,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.819508969783783,True
+1036,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.988986611366272,True
+1037,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9926780462265015,True
+1038,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.989935576915741,True
+1039,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9557331204414368,True
+1040,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8122694492340088,True
+1041,1,Merging Galaxies,1,Merging Galaxies,0.597564160823822,True
+1042,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8515061736106873,True
+1043,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9768734574317932,True
+1044,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9515455961227417,True
+1045,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9668562412261963,True
+1046,9,Edge-on Galaxies with Bulge,1,Merging Galaxies,0.8415836691856384,False
+1047,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.3875234127044678,True
+1048,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7815080881118774,True
+1049,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9981056451797485,True
+1050,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5171110033988953,False
+1051,1,Merging Galaxies,1,Merging Galaxies,0.9994592070579529,True
+1052,0,Disturbed Galaxies,5,Barred Spiral Galaxies,0.5934970378875732,False
+1053,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997515082359314,True
+1054,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997908473014832,True
+1055,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9984605312347412,True
+1056,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9965465664863586,True
+1057,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5859202146530151,True
+1058,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9883644580841064,True
+1059,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,0.9864352345466614,False
+1060,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9828285574913025,True
+1061,5,Barred Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,0.9423235058784485,False
+1062,1,Merging Galaxies,1,Merging Galaxies,0.8274819254875183,True
+1063,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.9942129254341125,False
+1064,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9956228137016296,True
+1065,1,Merging Galaxies,1,Merging Galaxies,0.9916619062423706,True
+1066,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9990798234939575,True
+1067,0,Disturbed Galaxies,0,Disturbed Galaxies,0.5426226258277893,True
+1068,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9885402321815491,True
+1069,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9767996668815613,True
+1070,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9667198657989502,True
+1071,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5606015920639038,False
+1072,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9914161562919617,True
+1073,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9990216493606567,True
+1074,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9948680400848389,True
+1075,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9807089567184448,True
+1076,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.902748703956604,False
+1077,1,Merging Galaxies,1,Merging Galaxies,0.9999885559082031,True
+1078,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7503165006637573,False
+1079,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9240102767944336,True
+1080,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.9199848771095276,False
+1081,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9996528625488281,True
+1082,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7749200463294983,True
+1083,1,Merging Galaxies,1,Merging Galaxies,0.5347481369972229,True
+1084,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6349222660064697,True
+1085,0,Disturbed Galaxies,1,Merging Galaxies,0.5287060737609863,False
+1086,1,Merging Galaxies,1,Merging Galaxies,0.959738552570343,True
+1087,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9446677565574646,True
+1088,1,Merging Galaxies,1,Merging Galaxies,0.9997792840003967,True
+1089,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.9512120485305786,False
+1090,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.6749857664108276,True
+1091,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9993647933006287,True
+1092,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9620831608772278,True
+1093,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9995323419570923,True
+1094,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9982373714447021,True
+1095,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9990662932395935,True
+1096,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.3910692036151886,False
+1097,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9343805909156799,True
+1098,1,Merging Galaxies,1,Merging Galaxies,0.9995681643486023,True
+1099,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997274279594421,True
+1100,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9932283759117126,True
+1101,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8057038187980652,True
+1102,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.6307110786437988,False
+1103,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9954462647438049,True
+1104,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9937669038772583,True
+1105,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7548651695251465,False
+1106,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9649686813354492,True
+1107,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.9890590310096741,False
+1108,1,Merging Galaxies,1,Merging Galaxies,0.9998917579650879,True
+1109,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.616637647151947,True
+1110,1,Merging Galaxies,1,Merging Galaxies,0.9991081357002258,True
+1111,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.865690290927887,True
+1112,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.8779345750808716,False
+1113,1,Merging Galaxies,1,Merging Galaxies,0.999884843826294,True
+1114,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999483823776245,True
+1115,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9463783502578735,True
+1116,1,Merging Galaxies,1,Merging Galaxies,0.9995278120040894,True
+1117,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9215297698974609,True
+1118,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.6466261744499207,False
+1119,7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,0.9943403005599976,False
+1120,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9904221296310425,True
+1121,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998983144760132,True
+1122,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9499511122703552,True
+1123,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.999308705329895,True
+1124,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,0.4579300582408905,False
+1125,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.4163782298564911,True
+1126,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5712707042694092,True
+1127,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9989527463912964,True
+1128,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8629782795906067,True
+1129,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5922622680664062,True
+1130,1,Merging Galaxies,1,Merging Galaxies,0.9999984502792358,True
+1131,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.9285542368888855,False
+1132,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9429596662521362,True
+1133,1,Merging Galaxies,1,Merging Galaxies,0.9853264093399048,True
+1134,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9902101755142212,True
+1135,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9770110249519348,True
+1136,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9841727018356323,True
+1137,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.4912044107913971,True
+1138,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9997233748435974,True
+1139,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9161689877510071,True
+1140,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9991447925567627,True
+1141,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9914992451667786,True
+1142,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.7287086248397827,False
+1143,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7236640453338623,True
+1144,8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,0.9949615001678467,False
+1145,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9884363412857056,True
+1146,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9626408219337463,True
+1147,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5971073508262634,True
+1148,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9790276885032654,True
+1149,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8739922046661377,True
+1150,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.9107185006141663,False
+1151,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9706327319145203,True
+1152,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9967413544654846,True
+1153,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6446781754493713,False
+1154,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999372959136963,True
+1155,1,Merging Galaxies,1,Merging Galaxies,0.9995952248573303,True
+1156,1,Merging Galaxies,1,Merging Galaxies,0.9914628863334656,True
+1157,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9307991862297058,True
+1158,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.8452187180519104,False
+1159,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9724045991897583,True
+1160,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.866249144077301,True
+1161,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9670964479446411,True
+1162,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9807666540145874,True
+1163,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8707358241081238,True
+1164,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7808145880699158,True
+1165,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9144304394721985,True
+1166,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.767210841178894,True
+1167,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8611055016517639,True
+1168,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9981624484062195,True
+1169,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9874423146247864,True
+1170,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.6734738945960999,False
+1171,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8941124677658081,True
+1172,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8216469883918762,True
+1173,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.49303582310676575,False
+1174,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9991058707237244,True
+1175,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.5510337352752686,True
+1176,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9948911666870117,True
+1177,1,Merging Galaxies,1,Merging Galaxies,0.9756757020950317,True
+1178,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9989734888076782,True
+1179,1,Merging Galaxies,1,Merging Galaxies,0.5023554563522339,True
+1180,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.999862551689148,True
+1181,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.944221556186676,True
+1182,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8547595143318176,True
+1183,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998021721839905,True
+1184,1,Merging Galaxies,3,In-between Round Smooth Galaxies,0.5642066597938538,False
+1185,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8091992735862732,True
+1186,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7612042427062988,True
+1187,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.44338464736938477,False
+1188,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.997503936290741,True
+1189,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.988192617893219,True
+1190,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9854971766471863,True
+1191,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9985023736953735,True
+1192,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9930458664894104,True
+1193,1,Merging Galaxies,5,Barred Spiral Galaxies,0.47973743081092834,False
+1194,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9978145360946655,True
+1195,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9987592697143555,True
+1196,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9264139533042908,True
+1197,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9994649291038513,True
+1198,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.9911128878593445,False
+1199,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8483843207359314,True
+1200,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9858331680297852,True
+1201,7,Unbarred Loose Spiral Galaxies,2,Round Smooth Galaxies,0.548799455165863,False
+1202,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7982810139656067,False
+1203,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7859114408493042,True
+1204,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.911471426486969,True
+1205,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6580636501312256,True
+1206,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9164701700210571,False
+1207,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9740518927574158,True
+1208,1,Merging Galaxies,1,Merging Galaxies,0.920220136642456,True
+1209,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6118364930152893,True
+1210,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9930828809738159,True
+1211,4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,0.848433256149292,False
+1212,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9977060556411743,True
+1213,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9909330606460571,True
+1214,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6291850209236145,False
+1215,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9843462109565735,True
+1216,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.7599310874938965,True
+1217,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7546035051345825,True
+1218,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9170534610748291,True
+1219,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9989936947822571,True
+1220,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9917013049125671,True
+1221,0,Disturbed Galaxies,4,Cigar Shaped Smooth Galaxies,0.9198564887046814,False
+1222,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9979648590087891,True
+1223,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.771976888179779,True
+1224,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9864658713340759,True
+1225,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8668203353881836,True
+1226,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.5288723111152649,True
+1227,1,Merging Galaxies,1,Merging Galaxies,0.9999568462371826,True
+1228,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.99968421459198,True
+1229,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9941755533218384,True
+1230,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,0.294346421957016,False
+1231,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9825464487075806,True
+1232,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8830230832099915,True
+1233,1,Merging Galaxies,1,Merging Galaxies,0.999982476234436,True
+1234,6,Unbarred Tight Spiral Galaxies,1,Merging Galaxies,0.9885791540145874,False
+1235,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.7510045766830444,True
+1236,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7986212372779846,True
+1237,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.913057804107666,True
+1238,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9926040768623352,True
+1239,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9706175923347473,True
+1240,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9405077695846558,True
+1241,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9908251166343689,True
+1242,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5610157251358032,True
+1243,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9372145533561707,True
+1244,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9713267683982849,True
+1245,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9995205402374268,True
+1246,1,Merging Galaxies,0,Disturbed Galaxies,0.7601532340049744,False
+1247,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9743534326553345,True
+1248,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9809519648551941,True
+1249,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9930387139320374,True
+1250,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6541618704795837,True
+1251,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,0.9932892918586731,False
+1252,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9263915419578552,True
+1253,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9700860977172852,True
+1254,1,Merging Galaxies,1,Merging Galaxies,0.9999897480010986,True
+1255,1,Merging Galaxies,1,Merging Galaxies,0.9999938011169434,True
+1256,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5811390280723572,True
+1257,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9529991149902344,True
+1258,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.739983856678009,False
+1259,1,Merging Galaxies,1,Merging Galaxies,0.9999803304672241,True
+1260,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7689470052719116,True
+1261,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.968553364276886,True
+1262,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998866319656372,True
+1263,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.927081823348999,True
+1264,1,Merging Galaxies,1,Merging Galaxies,0.9996242523193359,True
+1265,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9905458688735962,True
+1266,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9856758117675781,True
+1267,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9335512518882751,True
+1268,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9548659324645996,True
+1269,1,Merging Galaxies,1,Merging Galaxies,0.999994158744812,True
+1270,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8737413287162781,True
+1271,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8742706179618835,True
+1272,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8870581388473511,True
+1273,1,Merging Galaxies,1,Merging Galaxies,0.999998927116394,True
+1274,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9959936141967773,True
+1275,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9977309107780457,True
+1276,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9827336072921753,True
+1277,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8611459732055664,True
+1278,1,Merging Galaxies,1,Merging Galaxies,0.9880502820014954,True
+1279,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5147784948348999,False
+1280,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9622714519500732,True
+1281,1,Merging Galaxies,1,Merging Galaxies,0.9996127486228943,True
+1282,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5247600078582764,False
+1283,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,0.9081450700759888,False
+1284,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.43751251697540283,True
+1285,0,Disturbed Galaxies,1,Merging Galaxies,0.9810139536857605,False
+1286,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6113877296447754,True
+1287,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.7824332118034363,True
+1288,1,Merging Galaxies,1,Merging Galaxies,0.9579707384109497,True
+1289,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9974047541618347,True
+1290,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9127432703971863,True
+1291,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.998924195766449,True
+1292,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998596906661987,True
+1293,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9071188569068909,True
+1294,1,Merging Galaxies,1,Merging Galaxies,0.9999607801437378,True
+1295,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9267671704292297,True
+1296,6,Unbarred Tight Spiral Galaxies,3,In-between Round Smooth Galaxies,0.5697705149650574,False
+1297,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9993079900741577,True
+1298,1,Merging Galaxies,1,Merging Galaxies,0.9861889481544495,True
+1299,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9070168733596802,True
+1300,0,Disturbed Galaxies,0,Disturbed Galaxies,0.6126187443733215,True
+1301,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9938730001449585,True
+1302,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9997075200080872,True
+1303,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.5383493900299072,False
+1304,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9797138571739197,True
+1305,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7451355457305908,True
+1306,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9585425853729248,True
+1307,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9939684867858887,True
+1308,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9482328295707703,False
+1309,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9995673298835754,True
+1310,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8857191801071167,True
+1311,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8903347849845886,True
+1312,0,Disturbed Galaxies,0,Disturbed Galaxies,0.731250524520874,True
+1313,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,0.4987275302410126,False
+1314,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9979190230369568,True
+1315,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9248477816581726,True
+1316,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5648452639579773,True
+1317,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6465838551521301,True
+1318,1,Merging Galaxies,1,Merging Galaxies,0.9973217844963074,True
+1319,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8470704555511475,True
+1320,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9746158123016357,True
+1321,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6814653277397156,True
+1322,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9773639440536499,True
+1323,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9551660418510437,True
+1324,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.709211528301239,False
+1325,1,Merging Galaxies,1,Merging Galaxies,0.9999872446060181,True
+1326,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9664967656135559,True
+1327,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8109452128410339,True
+1328,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.983567476272583,True
+1329,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5047302842140198,True
+1330,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.8077998161315918,False
+1331,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9965129494667053,True
+1332,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9783625602722168,True
+1333,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.998105525970459,True
+1334,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,0.45928138494491577,False
+1335,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9212607741355896,True
+1336,1,Merging Galaxies,1,Merging Galaxies,0.9996532201766968,True
+1337,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9632865786552429,True
+1338,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9409751296043396,True
+1339,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5597676038742065,True
+1340,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999386191368103,True
+1341,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9631744623184204,True
+1342,0,Disturbed Galaxies,6,Unbarred Tight Spiral Galaxies,0.8339751958847046,False
+1343,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998466968536377,True
+1344,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9936583638191223,True
+1345,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9313496947288513,True
+1346,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6731916666030884,True
+1347,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,0.9194260835647583,False
+1348,4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5183512568473816,False
+1349,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8312581777572632,True
+1350,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999303817749023,True
+1351,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9899647831916809,True
+1352,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9747617840766907,True
+1353,1,Merging Galaxies,1,Merging Galaxies,0.9842550754547119,True
+1354,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9964753985404968,True
+1355,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9535388946533203,True
+1356,8,Edge-on Galaxies without Bulge,0,Disturbed Galaxies,0.9764867424964905,False
+1357,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.5268068313598633,False
+1358,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9991897940635681,True
+1359,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9966275095939636,True
+1360,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.999503493309021,True
+1361,0,Disturbed Galaxies,6,Unbarred Tight Spiral Galaxies,0.8432274460792542,False
+1362,0,Disturbed Galaxies,0,Disturbed Galaxies,0.6862708926200867,True
+1363,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9920273423194885,True
+1364,1,Merging Galaxies,1,Merging Galaxies,0.7036095857620239,True
+1365,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9449607133865356,True
+1366,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9858689308166504,True
+1367,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.43905436992645264,True
+1368,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9958255290985107,True
+1369,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9785680174827576,True
+1370,0,Disturbed Galaxies,0,Disturbed Galaxies,0.7140966653823853,True
+1371,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9968121647834778,True
+1372,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7604600787162781,False
+1373,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.935795783996582,True
+1374,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.4843427836894989,True
+1375,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7848588824272156,True
+1376,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9999200105667114,True
+1377,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.8793069124221802,False
+1378,1,Merging Galaxies,1,Merging Galaxies,0.9731909036636353,True
+1379,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9360975623130798,True
+1380,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.892730176448822,False
+1381,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8919341564178467,True
+1382,1,Merging Galaxies,1,Merging Galaxies,0.9995335340499878,True
+1383,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9432882070541382,True
+1384,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9866472482681274,True
+1385,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.967462956905365,True
+1386,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9889440536499023,True
+1387,1,Merging Galaxies,1,Merging Galaxies,0.9998843669891357,True
+1388,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.736825704574585,True
+1389,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9857996702194214,True
+1390,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9987999200820923,True
+1391,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.98020339012146,True
+1392,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9914392232894897,True
+1393,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.995323121547699,True
+1394,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9799750447273254,True
+1395,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8893822431564331,True
+1396,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9951496720314026,True
+1397,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7920883893966675,True
+1398,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997920393943787,True
+1399,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6193733215332031,True
+1400,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.5617066621780396,True
+1401,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9581747055053711,True
+1402,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9166048169136047,True
+1403,1,Merging Galaxies,1,Merging Galaxies,0.9999151229858398,True
+1404,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.995496392250061,True
+1405,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8429018259048462,True
+1406,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.997719943523407,True
+1407,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.515555202960968,True
+1408,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7502281069755554,True
+1409,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9588144421577454,True
+1410,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.6984761357307434,False
+1411,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9944751858711243,True
+1412,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9392476677894592,True
+1413,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.6713630557060242,True
+1414,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9777841567993164,True
+1415,0,Disturbed Galaxies,0,Disturbed Galaxies,0.556175172328949,True
+1416,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9922647476196289,True
+1417,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9977487921714783,True
+1418,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.933853268623352,True
+1419,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9984222650527954,True
+1420,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8804107904434204,True
+1421,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9666324853897095,True
+1422,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9737287759780884,True
+1423,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8024874329566956,True
+1424,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9980236291885376,True
+1425,1,Merging Galaxies,1,Merging Galaxies,0.9965587258338928,True
+1426,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9906522035598755,True
+1427,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9907824397087097,True
+1428,0,Disturbed Galaxies,0,Disturbed Galaxies,0.7280684113502502,True
+1429,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9867300987243652,True
+1430,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.5023045539855957,True
+1431,1,Merging Galaxies,1,Merging Galaxies,0.9580678343772888,True
+1432,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.7900827527046204,True
+1433,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9992877840995789,True
+1434,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9960139989852905,True
+1435,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9469659328460693,True
+1436,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9553748965263367,False
+1437,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9288740754127502,True
+1438,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9787508249282837,True
+1439,1,Merging Galaxies,1,Merging Galaxies,0.9932733774185181,True
+1440,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9965196847915649,True
+1441,1,Merging Galaxies,1,Merging Galaxies,0.9999845027923584,True
+1442,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.999855637550354,True
+1443,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9696750044822693,True
+1444,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,0.44586658477783203,False
+1445,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9946578145027161,True
+1446,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9770919680595398,True
+1447,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.59892737865448,False
+1448,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9158301949501038,True
+1449,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9994725584983826,True
+1450,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,0.5498446226119995,False
+1451,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9993570446968079,True
+1452,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9920011758804321,True
+1453,1,Merging Galaxies,1,Merging Galaxies,0.8802415728569031,True
+1454,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9855214953422546,True
+1455,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9506081342697144,True
+1456,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9954559803009033,True
+1457,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9809608459472656,True
+1458,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.37650009989738464,True
+1459,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.8964384198188782,False
+1460,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8662151098251343,True
+1461,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.46574440598487854,False
+1462,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.986599862575531,True
+1463,1,Merging Galaxies,2,Round Smooth Galaxies,0.8287619948387146,False
+1464,1,Merging Galaxies,1,Merging Galaxies,0.5392534732818604,True
+1465,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999514818191528,True
+1466,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9937815070152283,True
+1467,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9529692530632019,True
+1468,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.996451735496521,True
+1469,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9963774085044861,True
+1470,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9939124584197998,True
+1471,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,0.9757166504859924,False
+1472,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9973627924919128,True
+1473,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999484658241272,True
+1474,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9988621473312378,True
+1475,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9563107490539551,True
+1476,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9974555373191833,True
+1477,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.6653109788894653,False
+1478,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9815280437469482,True
+1479,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9830895662307739,True
+1480,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9984263181686401,True
+1481,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,0.4650154411792755,False
+1482,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9504531025886536,True
+1483,1,Merging Galaxies,1,Merging Galaxies,0.9989930987358093,True
+1484,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.984435498714447,True
+1485,1,Merging Galaxies,1,Merging Galaxies,0.9998449087142944,True
+1486,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7899869084358215,True
+1487,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9047209620475769,True
+1488,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9913459420204163,True
+1489,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.6972188353538513,False
+1490,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9989781379699707,True
+1491,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998916387557983,True
+1492,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.964769721031189,True
+1493,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9451985955238342,True
+1494,1,Merging Galaxies,1,Merging Galaxies,0.9943453669548035,True
+1495,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9872406125068665,True
+1496,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.999678373336792,True
+1497,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9992926120758057,True
+1498,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8076789975166321,True
+1499,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9896563291549683,True
+1500,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9170315265655518,True
+1501,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5658295750617981,True
+1502,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.910818338394165,True
+1503,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9612999558448792,True
+1504,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9920461177825928,True
+1505,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9882709383964539,True
+1506,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.913835346698761,True
+1507,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9567844867706299,False
+1508,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.600849449634552,True
+1509,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.7813430428504944,True
+1510,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8790122270584106,True
+1511,0,Disturbed Galaxies,0,Disturbed Galaxies,0.7354022264480591,True
+1512,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9589654803276062,True
+1513,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.4399770200252533,True
+1514,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.5679277181625366,True
+1515,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9978038668632507,True
+1516,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9745187759399414,True
+1517,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9974122643470764,True
+1518,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9370632767677307,True
+1519,0,Disturbed Galaxies,2,Round Smooth Galaxies,0.9015524983406067,False
+1520,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.901042640209198,True
+1521,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.5137454867362976,True
+1522,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9988976716995239,True
+1523,1,Merging Galaxies,1,Merging Galaxies,0.9830456972122192,True
+1524,1,Merging Galaxies,2,Round Smooth Galaxies,0.31738585233688354,False
+1525,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.9147579669952393,False
+1526,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.963726282119751,True
+1527,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9055657982826233,False
+1528,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9894014000892639,True
+1529,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.6433201432228088,True
+1530,1,Merging Galaxies,1,Merging Galaxies,0.999659538269043,True
+1531,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9895086288452148,True
+1532,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6672629117965698,True
+1533,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8247573375701904,True
+1534,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9913231134414673,True
+1535,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,0.8926912546157837,False
+1536,9,Edge-on Galaxies with Bulge,4,Cigar Shaped Smooth Galaxies,0.48845699429512024,False
+1537,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9983152151107788,True
+1538,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9898040294647217,True
+1539,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8811405897140503,True
+1540,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9983457326889038,True
+1541,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9942365288734436,True
+1542,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.37911155819892883,False
+1543,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9989933371543884,True
+1544,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9899918437004089,True
+1545,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9950283169746399,True
+1546,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9200201034545898,True
+1547,0,Disturbed Galaxies,0,Disturbed Galaxies,0.998238205909729,True
+1548,1,Merging Galaxies,1,Merging Galaxies,0.9805137515068054,True
+1549,0,Disturbed Galaxies,0,Disturbed Galaxies,0.8144364953041077,True
+1550,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997979998588562,True
+1551,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9995980858802795,True
+1552,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.998348593711853,True
+1553,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9504373073577881,True
+1554,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.9503624439239502,False
+1555,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.866571307182312,True
+1556,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7482022047042847,True
+1557,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999719858169556,True
+1558,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9275217652320862,True
+1559,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9603471159934998,True
+1560,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9810242652893066,True
+1561,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.5336170196533203,False
+1562,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9770186543464661,True
+1563,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9296567440032959,True
+1564,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9873162508010864,True
+1565,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9987442493438721,True
+1566,1,Merging Galaxies,1,Merging Galaxies,0.9322283267974854,True
+1567,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7663965225219727,True
+1568,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9930241107940674,True
+1569,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9996547698974609,True
+1570,7,Unbarred Loose Spiral Galaxies,9,Edge-on Galaxies with Bulge,0.9726534485816956,False
+1571,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9687885046005249,True
+1572,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9891844987869263,True
+1573,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.989933431148529,True
+1574,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.8842988014221191,True
+1575,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9848495721817017,True
+1576,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9711629152297974,True
+1577,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9876718521118164,True
+1578,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9929800629615784,True
+1579,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7896089553833008,True
+1580,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9981027245521545,True
+1581,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.923723042011261,True
+1582,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9964588284492493,True
+1583,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.4950304627418518,True
+1584,1,Merging Galaxies,1,Merging Galaxies,0.999723494052887,True
+1585,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.998242974281311,True
+1586,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9847270250320435,True
+1587,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9945462942123413,True
+1588,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9992577433586121,True
+1589,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9857416152954102,True
+1590,1,Merging Galaxies,1,Merging Galaxies,0.9985755681991577,True
+1591,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9984351992607117,True
+1592,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9754235148429871,False
+1593,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9609929919242859,True
+1594,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9992849230766296,True
+1595,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9444535374641418,True
+1596,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9985710382461548,True
+1597,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6458884477615356,True
+1598,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8473452925682068,True
+1599,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9911820888519287,True
+1600,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9610293507575989,True
+1601,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998984336853027,True
+1602,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8808855414390564,True
+1603,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9198999404907227,True
+1604,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.996020495891571,True
+1605,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9972254037857056,True
+1606,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.995971143245697,True
+1607,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.5968421697616577,False
+1608,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9870709776878357,True
+1609,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9932717680931091,True
+1610,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.901969850063324,True
+1611,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9997581839561462,True
+1612,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9422255754470825,True
+1613,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,0.5600036382675171,False
+1614,1,Merging Galaxies,1,Merging Galaxies,0.840787947177887,True
+1615,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,0.5369619727134705,False
+1616,1,Merging Galaxies,1,Merging Galaxies,0.9999704360961914,True
+1617,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.978456974029541,True
+1618,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8836811184883118,True
+1619,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.8482086658477783,True
+1620,5,Barred Spiral Galaxies,0,Disturbed Galaxies,0.9297585487365723,False
+1621,1,Merging Galaxies,1,Merging Galaxies,0.8224943280220032,True
+1622,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9996522665023804,True
+1623,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9853657484054565,True
+1624,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9988376498222351,True
+1625,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8514894247055054,True
+1626,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9982185959815979,True
+1627,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9042301177978516,True
+1628,1,Merging Galaxies,1,Merging Galaxies,0.9864939451217651,True
+1629,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,0.5826430916786194,False
+1630,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9744365811347961,True
+1631,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9992607235908508,True
+1632,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8516338467597961,True
+1633,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9733932018280029,True
+1634,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9629073143005371,True
+1635,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9952599406242371,True
+1636,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.733083188533783,True
+1637,1,Merging Galaxies,1,Merging Galaxies,0.9999470710754395,True
+1638,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9924322366714478,True
+1639,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9740132093429565,True
+1640,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9915558099746704,True
+1641,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.991058886051178,True
+1642,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9623121619224548,True
+1643,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9726754426956177,True
+1644,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9968921542167664,True
+1645,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9933390021324158,True
+1646,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.6599192023277283,True
+1647,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8979127407073975,False
+1648,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9543048739433289,True
+1649,1,Merging Galaxies,1,Merging Galaxies,0.551056444644928,True
+1650,1,Merging Galaxies,1,Merging Galaxies,0.9928116202354431,True
+1651,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8040403723716736,False
+1652,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,0.3128304183483124,False
+1653,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9686765074729919,True
+1654,7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,0.5256270170211792,False
+1655,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9696415066719055,True
+1656,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.95201176404953,True
+1657,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9993687272071838,True
+1658,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9782547950744629,True
+1659,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.936198353767395,False
+1660,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9996516704559326,True
+1661,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0.8504241108894348,False
+1662,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8849107623100281,True
+1663,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9987176656723022,True
+1664,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9955714344978333,True
+1665,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9646682143211365,True
+1666,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9997242093086243,True
+1667,4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7750627398490906,False
+1668,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9994667172431946,True
+1669,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9711573719978333,True
+1670,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9231358170509338,True
+1671,1,Merging Galaxies,1,Merging Galaxies,0.9456697702407837,True
+1672,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9898661971092224,True
+1673,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9965356588363647,True
+1674,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9639396667480469,True
+1675,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.7981446981430054,True
+1676,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.978837251663208,True
+1677,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,0.9251962304115295,False
+1678,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9542933702468872,False
+1679,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9919127225875854,True
+1680,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9616881012916565,True
+1681,6,Unbarred Tight Spiral Galaxies,3,In-between Round Smooth Galaxies,0.6858737468719482,False
+1682,1,Merging Galaxies,1,Merging Galaxies,0.9998539686203003,True
+1683,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.6501427292823792,True
+1684,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9926860332489014,True
+1685,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9920873045921326,True
+1686,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9991766810417175,True
+1687,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.999915361404419,True
+1688,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8749641180038452,False
+1689,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9604718089103699,True
+1690,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999476671218872,True
+1691,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.8884314298629761,True
+1692,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.7459478974342346,True
+1693,1,Merging Galaxies,1,Merging Galaxies,0.998143196105957,True
+1694,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.6342470049858093,True
+1695,0,Disturbed Galaxies,0,Disturbed Galaxies,0.6032139658927917,True
+1696,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9671559929847717,True
+1697,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5486025810241699,False
+1698,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9303982257843018,True
+1699,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,0.37001341581344604,False
+1700,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.567954957485199,True
+1701,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9999233484268188,True
+1702,4,Cigar Shaped Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0.9945123195648193,True
+1703,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.99397873878479,True
+1704,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.5742126703262329,True
+1705,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5555558204650879,False
+1706,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.8309875130653381,True
+1707,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9956110119819641,True
+1708,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9413275122642517,True
+1709,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.753886878490448,True
+1710,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.7253219485282898,True
+1711,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9998828172683716,True
+1712,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5144785046577454,False
+1713,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.992982029914856,True
+1714,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9344717264175415,True
+1715,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9811344146728516,True
+1716,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8925700187683105,False
+1717,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9917274713516235,True
+1718,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9782323837280273,True
+1719,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9993483424186707,True
+1720,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9672238826751709,True
+1721,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9985939860343933,True
+1722,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,0.41122356057167053,False
+1723,1,Merging Galaxies,1,Merging Galaxies,0.9993188381195068,True
+1724,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8989242911338806,True
+1725,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9994658827781677,True
+1726,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9983354210853577,True
+1727,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9848708510398865,True
+1728,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9884146451950073,True
+1729,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9929839372634888,True
+1730,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9946386218070984,True
+1731,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9619218707084656,True
+1732,1,Merging Galaxies,0,Disturbed Galaxies,0.5702394843101501,False
+1733,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.992527961730957,True
+1734,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.999476969242096,True
+1735,5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,0.9942857623100281,False
+1736,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.8390746116638184,True
+1737,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.98848956823349,True
+1738,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9866379499435425,True
+1739,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9016562700271606,True
+1740,0,Disturbed Galaxies,0,Disturbed Galaxies,0.6335808634757996,True
+1741,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.998139500617981,True
+1742,0,Disturbed Galaxies,0,Disturbed Galaxies,0.859078586101532,True
+1743,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.9299811720848083,True
+1744,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9993959665298462,True
+1745,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9942865967750549,True
+1746,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9960561990737915,True
+1747,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9995112419128418,True
+1748,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.43361103534698486,True
+1749,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9150115251541138,True
+1750,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5949810743331909,True
+1751,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.987163782119751,True
+1752,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,0.5317666530609131,False
+1753,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.8035303950309753,True
+1754,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9986543655395508,True
+1755,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9678868055343628,True
+1756,7,Unbarred Loose Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.7921534776687622,True
+1757,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9998756647109985,True
+1758,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.9362689256668091,True
+1759,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.9828745126724243,True
+1760,1,Merging Galaxies,1,Merging Galaxies,0.9999722242355347,True
+1761,2,Round Smooth Galaxies,2,Round Smooth Galaxies,0.9923323392868042,True
+1762,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9994083642959595,True
+1763,1,Merging Galaxies,1,Merging Galaxies,0.9999053478240967,True
+1764,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,0.5875037908554077,False
+1765,1,Merging Galaxies,1,Merging Galaxies,0.9999425411224365,True
+1766,6,Unbarred Tight Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,0.46828627586364746,True
+1767,1,Merging Galaxies,1,Merging Galaxies,0.9993857145309448,True
+1768,3,In-between Round Smooth Galaxies,3,In-between Round Smooth Galaxies,0.8957218527793884,True
+1769,9,Edge-on Galaxies with Bulge,9,Edge-on Galaxies with Bulge,0.9988489151000977,True
+1770,1,Merging Galaxies,2,Round Smooth Galaxies,0.9963352680206299,False
+1771,8,Edge-on Galaxies without Bulge,8,Edge-on Galaxies without Bulge,0.9985768795013428,True
+1772,5,Barred Spiral Galaxies,5,Barred Spiral Galaxies,0.9851347804069519,True
+1773,0,Disturbed Galaxies,0,Disturbed Galaxies,0.9973700046539307,True

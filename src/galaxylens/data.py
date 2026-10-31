@@ -1,4 +1,4 @@
-"""Dataset inspection and lazy HDF5-backed PyTorch dataset."""
+﻿"""Dataset inspection and cache-backed PyTorch dataset."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -97,3 +97,4 @@ class Galaxy10H5Dataset(Dataset):
 
     def close(self):
         self.images = None
+

@@ -53,12 +53,14 @@ def apply_corruption(image: Image.Image, kind: str, severity: int, seed: int = 0
     Severity levels are 1-3. These are synthetic stress tests, not a substitute
     for validation on an independent astronomical survey.
     """
+    image = image.convert("RGB")
+    if kind == "clean":
+        if severity != 0:
+            raise ValueError("clean condition requires severity 0")
+        return image.copy()
     if severity not in (1, 2, 3):
         raise ValueError("severity must be 1, 2, or 3")
-    image = image.convert("RGB")
     rng = np.random.default_rng(seed)
-    if kind == "clean":
-        return image.copy()
     if kind == "blur":
         return image.filter(ImageFilter.GaussianBlur(radius=(0.5, 1.0, 1.8)[severity - 1]))
     if kind == "resolution":

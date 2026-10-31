@@ -1,0 +1,10 @@
+{
+  "checkpoint": "artifacts/checkpoints/disturbed_weighted_aug_best.pt",
+  "best_epoch": 3,
+  "best_validation_macro_f1": 0.7651322029128748,
+  "epochs_completed": 7,
+  "elapsed_seconds": 619.37,
+  "device": "cuda",
+  "test_set_used_for_selection": false,
+  "history_path": "reports/experiments/disturbed_weighted_aug/history.json"
+}

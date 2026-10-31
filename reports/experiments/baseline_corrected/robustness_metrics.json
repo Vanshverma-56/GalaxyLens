@@ -1,0 +1,2491 @@
+{
+  "checkpoint": "artifacts/checkpoints/baseline_best.pt",
+  "split": "test",
+  "seed": 2026,
+  "conditions": [
+    {
+      "condition": "clean",
+      "severity": 0,
+      "n_samples": 1774,
+      "accuracy": 0.8173618940248027,
+      "macro_f1": 0.8080834886580052,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.5086206896551724,
+          "recall": 0.5462962962962963,
+          "f1-score": 0.5267857142857143,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.8131313131313131,
+          "recall": 0.8702702702702703,
+          "f1-score": 0.8407310704960835,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8714285714285714,
+          "recall": 0.9242424242424242,
+          "f1-score": 0.8970588235294118,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.9014778325123153,
+          "recall": 0.9014778325123153,
+          "f1-score": 0.9014778325123153,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.7692307692307693,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.821917808219178,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9735099337748344,
+          "recall": 0.7170731707317073,
+          "f1-score": 0.8258426966292135,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.7374301675977654,
+          "recall": 0.7213114754098361,
+          "f1-score": 0.7292817679558011,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6981818181818182,
+          "recall": 0.7300380228136882,
+          "f1-score": 0.7137546468401487,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.9027777777777778,
+          "recall": 0.9154929577464789,
+          "f1-score": 0.9090909090909091,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.91005291005291,
+          "recall": 0.9197860962566845,
+          "f1-score": 0.9148936170212766,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          59,
+          3,
+          13,
+          10,
+          4,
+          0,
+          2,
+          13,
+          1,
+          3
+        ],
+        [
+          2,
+          161,
+          7,
+          2,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          6,
+          244,
+          1,
+          0,
+          0,
+          8,
+          1,
+          0,
+          0
+        ],
+        [
+          6,
+          5,
+          0,
+          183,
+          1,
+          0,
+          3,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          30,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          13,
+          6,
+          0,
+          2,
+          0,
+          147,
+          8,
+          24,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          10,
+          1,
+          0,
+          1,
+          132,
+          34,
+          2,
+          0
+        ],
+        [
+          26,
+          12,
+          4,
+          0,
+          0,
+          2,
+          21,
+          192,
+          2,
+          4
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          2,
+          130,
+          5
+        ],
+        [
+          3,
+          3,
+          2,
+          2,
+          0,
+          0,
+          1,
+          1,
+          3,
+          172
+        ]
+      ]
+    },
+    {
+      "condition": "blur",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.8066516347237881,
+      "macro_f1": 0.7912935796068151,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.46226415094339623,
+          "recall": 0.4537037037037037,
+          "f1-score": 0.45794392523364486,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.7951219512195122,
+          "recall": 0.8810810810810811,
+          "f1-score": 0.8358974358974359,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8992537313432836,
+          "recall": 0.9128787878787878,
+          "f1-score": 0.9060150375939849,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.898989898989899,
+          "recall": 0.8768472906403941,
+          "f1-score": 0.8877805486284289,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.6739130434782609,
+          "recall": 0.9117647058823529,
+          "f1-score": 0.775,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.974025974025974,
+          "recall": 0.7317073170731707,
+          "f1-score": 0.8356545961002786,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.7247191011235955,
+          "recall": 0.7049180327868853,
+          "f1-score": 0.7146814404432132,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6666666666666666,
+          "recall": 0.7756653992395437,
+          "f1-score": 0.7170474516695958,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8783783783783784,
+          "recall": 0.9154929577464789,
+          "f1-score": 0.896551724137931,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9454545454545454,
+          "recall": 0.8342245989304813,
+          "f1-score": 0.8863636363636364,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          49,
+          5,
+          12,
+          9,
+          4,
+          0,
+          3,
+          23,
+          1,
+          2
+        ],
+        [
+          2,
+          163,
+          5,
+          2,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          6,
+          6,
+          241,
+          1,
+          0,
+          0,
+          9,
+          1,
+          0,
+          0
+        ],
+        [
+          11,
+          5,
+          0,
+          178,
+          1,
+          0,
+          3,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          31,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          10,
+          6,
+          0,
+          2,
+          0,
+          150,
+          8,
+          26,
+          2,
+          1
+        ],
+        [
+          4,
+          2,
+          6,
+          1,
+          0,
+          1,
+          129,
+          38,
+          2,
+          0
+        ],
+        [
+          18,
+          12,
+          2,
+          0,
+          0,
+          2,
+          20,
+          204,
+          2,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1,
+          4,
+          130,
+          1
+        ],
+        [
+          4,
+          6,
+          2,
+          4,
+          5,
+          0,
+          1,
+          2,
+          7,
+          156
+        ]
+      ]
+    },
+    {
+      "condition": "blur",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7869222096956031,
+      "macro_f1": 0.7726653168231784,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.4421052631578947,
+          "recall": 0.3888888888888889,
+          "f1-score": 0.41379310344827586,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.780373831775701,
+          "recall": 0.9027027027027027,
+          "f1-score": 0.8370927318295739,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.9294605809128631,
+          "recall": 0.8484848484848485,
+          "f1-score": 0.8871287128712871,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.9045226130653267,
+          "recall": 0.8866995073891626,
+          "f1-score": 0.8955223880597015,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.6818181818181818,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.7692307692307693,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9605263157894737,
+          "recall": 0.7121951219512195,
+          "f1-score": 0.8179271708683473,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.6221198156682027,
+          "recall": 0.7377049180327869,
+          "f1-score": 0.675,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6366559485530546,
+          "recall": 0.752851711026616,
+          "f1-score": 0.6898954703832753,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8639455782312925,
+          "recall": 0.8943661971830986,
+          "f1-score": 0.8788927335640139,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9545454545454546,
+          "recall": 0.786096256684492,
+          "f1-score": 0.8621700879765396,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          42,
+          5,
+          12,
+          9,
+          3,
+          0,
+          7,
+          27,
+          1,
+          2
+        ],
+        [
+          3,
+          167,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          2,
+          1
+        ],
+        [
+          5,
+          9,
+          224,
+          1,
+          0,
+          0,
+          22,
+          3,
+          0,
+          0
+        ],
+        [
+          6,
+          4,
+          0,
+          180,
+          1,
+          0,
+          9,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          30,
+          0,
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          7,
+          5,
+          0,
+          1,
+          0,
+          146,
+          14,
+          29,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          1,
+          0,
+          1,
+          135,
+          36,
+          1,
+          0
+        ],
+        [
+          18,
+          14,
+          0,
+          0,
+          0,
+          3,
+          24,
+          198,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          8,
+          127,
+          0
+        ],
+        [
+          7,
+          7,
+          0,
+          5,
+          6,
+          1,
+          1,
+          4,
+          9,
+          147
+        ]
+      ]
+    },
+    {
+      "condition": "blur",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7632468996617813,
+      "macro_f1": 0.7618853573643325,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.49107142857142855,
+          "recall": 0.5092592592592593,
+          "f1-score": 0.5,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.7028112449799196,
+          "recall": 0.9459459459459459,
+          "f1-score": 0.8064516129032258,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.9380530973451328,
+          "recall": 0.803030303030303,
+          "f1-score": 0.8653061224489796,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.930635838150289,
+          "recall": 0.7931034482758621,
+          "f1-score": 0.8563829787234043,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.7567567567567568,
+          "recall": 0.8235294117647058,
+          "f1-score": 0.7887323943661971,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9420289855072463,
+          "recall": 0.6341463414634146,
+          "f1-score": 0.7580174927113703,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.5048543689320388,
+          "recall": 0.8524590163934426,
+          "f1-score": 0.6341463414634146,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.7,
+          "recall": 0.55893536121673,
+          "f1-score": 0.6215644820295984,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8544303797468354,
+          "recall": 0.9507042253521126,
+          "f1-score": 0.9,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9567901234567902,
+          "recall": 0.8288770053475936,
+          "f1-score": 0.8882521489971347,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          55,
+          4,
+          10,
+          5,
+          2,
+          1,
+          14,
+          14,
+          2,
+          1
+        ],
+        [
+          0,
+          175,
+          1,
+          1,
+          0,
+          1,
+          2,
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          14,
+          212,
+          1,
+          0,
+          0,
+          32,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          12,
+          0,
+          161,
+          1,
+          0,
+          24,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          28,
+          0,
+          1,
+          0,
+          3,
+          0
+        ],
+        [
+          18,
+          8,
+          1,
+          1,
+          0,
+          130,
+          21,
+          24,
+          2,
+          0
+        ],
+        [
+          4,
+          4,
+          1,
+          1,
+          0,
+          1,
+          156,
+          14,
+          2,
+          0
+        ],
+        [
+          24,
+          23,
+          1,
+          0,
+          1,
+          4,
+          57,
+          147,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          135,
+          1
+        ],
+        [
+          4,
+          8,
+          0,
+          2,
+          4,
+          1,
+          2,
+          1,
+          10,
+          155
+        ]
+      ]
+    },
+    {
+      "condition": "resolution",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7886133032694476,
+      "macro_f1": 0.776034929314007,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.45652173913043476,
+          "recall": 0.3888888888888889,
+          "f1-score": 0.42,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.784037558685446,
+          "recall": 0.9027027027027027,
+          "f1-score": 0.8391959798994975,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.9288702928870293,
+          "recall": 0.8409090909090909,
+          "f1-score": 0.882703777335984,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.921875,
+          "recall": 0.8719211822660099,
+          "f1-score": 0.8962025316455696,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.6976744186046512,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.7792207792207793,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9545454545454546,
+          "recall": 0.7170731707317073,
+          "f1-score": 0.8189415041782729,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.6108597285067874,
+          "recall": 0.7377049180327869,
+          "f1-score": 0.6683168316831684,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6325878594249201,
+          "recall": 0.752851711026616,
+          "f1-score": 0.6875,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8716216216216216,
+          "recall": 0.9084507042253521,
+          "f1-score": 0.8896551724137931,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9559748427672956,
+          "recall": 0.8128342245989305,
+          "f1-score": 0.8786127167630058,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          42,
+          4,
+          12,
+          8,
+          3,
+          0,
+          7,
+          29,
+          1,
+          2
+        ],
+        [
+          2,
+          167,
+          3,
+          1,
+          1,
+          1,
+          3,
+          4,
+          2,
+          1
+        ],
+        [
+          5,
+          9,
+          222,
+          1,
+          0,
+          0,
+          24,
+          3,
+          0,
+          0
+        ],
+        [
+          7,
+          4,
+          0,
+          177,
+          1,
+          0,
+          10,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          30,
+          0,
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          6,
+          5,
+          0,
+          1,
+          0,
+          147,
+          14,
+          29,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          1,
+          0,
+          1,
+          135,
+          36,
+          1,
+          0
+        ],
+        [
+          16,
+          14,
+          0,
+          0,
+          0,
+          4,
+          25,
+          198,
+          3,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          7,
+          129,
+          0
+        ],
+        [
+          8,
+          7,
+          0,
+          2,
+          5,
+          1,
+          1,
+          3,
+          8,
+          152
+        ]
+      ]
+    },
+    {
+      "condition": "resolution",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.7497181510710259,
+      "macro_f1": 0.7500889186146896,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.453125,
+          "recall": 0.5370370370370371,
+          "f1-score": 0.4915254237288136,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.6784313725490196,
+          "recall": 0.9351351351351351,
+          "f1-score": 0.7863636363636364,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.9493087557603687,
+          "recall": 0.7803030303030303,
+          "f1-score": 0.8565488565488566,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.9337349397590361,
+          "recall": 0.7635467980295566,
+          "f1-score": 0.8401084010840109,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.8064516129032258,
+          "recall": 0.7352941176470589,
+          "f1-score": 0.7692307692307693,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9473684210526315,
+          "recall": 0.6146341463414634,
+          "f1-score": 0.7455621301775148,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.48338368580060426,
+          "recall": 0.8743169398907104,
+          "f1-score": 0.622568093385214,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.711340206185567,
+          "recall": 0.5247148288973384,
+          "f1-score": 0.6039387308533917,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8589743589743589,
+          "recall": 0.9436619718309859,
+          "f1-score": 0.8993288590604027,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.950920245398773,
+          "recall": 0.8288770053475936,
+          "f1-score": 0.8857142857142857,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          58,
+          6,
+          8,
+          5,
+          1,
+          1,
+          14,
+          12,
+          2,
+          1
+        ],
+        [
+          1,
+          173,
+          2,
+          1,
+          0,
+          1,
+          2,
+          2,
+          1,
+          2
+        ],
+        [
+          4,
+          18,
+          206,
+          1,
+          0,
+          0,
+          33,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          12,
+          0,
+          155,
+          1,
+          0,
+          28,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          25,
+          0,
+          2,
+          1,
+          3,
+          1
+        ],
+        [
+          23,
+          9,
+          0,
+          1,
+          0,
+          126,
+          23,
+          21,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          1,
+          0,
+          0,
+          1,
+          160,
+          10,
+          2,
+          0
+        ],
+        [
+          29,
+          23,
+          0,
+          0,
+          1,
+          3,
+          63,
+          138,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          1,
+          134,
+          1
+        ],
+        [
+          5,
+          8,
+          0,
+          2,
+          3,
+          1,
+          3,
+          1,
+          9,
+          155
+        ]
+      ]
+    },
+    {
+      "condition": "resolution",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.3968432919954904,
+      "macro_f1": 0.3524348708987022,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.195,
+          "recall": 0.3611111111111111,
+          "f1-score": 0.2532467532467532,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.5105633802816901,
+          "recall": 0.7837837837837838,
+          "f1-score": 0.6183368869936035,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.9863013698630136,
+          "recall": 0.2727272727272727,
+          "f1-score": 0.42729970326409494,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 1.0,
+          "recall": 0.06896551724137931,
+          "f1-score": 0.12903225806451613,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 1.0,
+          "recall": 0.029411764705882353,
+          "f1-score": 0.05714285714285714,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.972972972972973,
+          "recall": 0.17560975609756097,
+          "f1-score": 0.2975206611570248,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.19905771495877503,
+          "recall": 0.9234972677595629,
+          "f1-score": 0.32751937984496127,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 1.0,
+          "recall": 0.0076045627376425855,
+          "f1-score": 0.01509433962264151,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.6009174311926605,
+          "recall": 0.9225352112676056,
+          "f1-score": 0.7277777777777777,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9895833333333334,
+          "recall": 0.5080213903743316,
+          "f1-score": 0.6713780918727915,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          39,
+          16,
+          1,
+          0,
+          0,
+          0,
+          43,
+          0,
+          9,
+          0
+        ],
+        [
+          14,
+          145,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          11,
+          0
+        ],
+        [
+          11,
+          44,
+          72,
+          0,
+          0,
+          0,
+          128,
+          0,
+          9,
+          0
+        ],
+        [
+          5,
+          25,
+          0,
+          14,
+          0,
+          0,
+          157,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30,
+          0,
+          3,
+          0
+        ],
+        [
+          53,
+          11,
+          0,
+          0,
+          0,
+          36,
+          101,
+          0,
+          4,
+          0
+        ],
+        [
+          6,
+          3,
+          0,
+          0,
+          0,
+          1,
+          169,
+          0,
+          4,
+          0
+        ],
+        [
+          59,
+          26,
+          0,
+          0,
+          0,
+          0,
+          166,
+          2,
+          9,
+          1
+        ],
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          131,
+          0
+        ],
+        [
+          8,
+          14,
+          0,
+          0,
+          0,
+          0,
+          34,
+          0,
+          36,
+          95
+        ]
+      ]
+    },
+    {
+      "condition": "noise",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.8167981961668546,
+      "macro_f1": 0.8075082279116532,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.5130434782608696,
+          "recall": 0.5462962962962963,
+          "f1-score": 0.5291479820627802,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.8131313131313131,
+          "recall": 0.8702702702702703,
+          "f1-score": 0.8407310704960835,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8687943262411347,
+          "recall": 0.928030303030303,
+          "f1-score": 0.8974358974358975,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.8960396039603961,
+          "recall": 0.8916256157635468,
+          "f1-score": 0.8938271604938272,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.7692307692307693,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.821917808219178,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9733333333333334,
+          "recall": 0.7121951219512195,
+          "f1-score": 0.8225352112676056,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.7362637362637363,
+          "recall": 0.73224043715847,
+          "f1-score": 0.7342465753424657,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.7007299270072993,
+          "recall": 0.7300380228136882,
+          "f1-score": 0.7150837988826816,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.9020979020979021,
+          "recall": 0.9084507042253521,
+          "f1-score": 0.9052631578947369,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.91005291005291,
+          "recall": 0.9197860962566845,
+          "f1-score": 0.9148936170212766,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          59,
+          2,
+          13,
+          11,
+          4,
+          0,
+          1,
+          14,
+          1,
+          3
+        ],
+        [
+          2,
+          161,
+          7,
+          2,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          6,
+          245,
+          1,
+          0,
+          0,
+          7,
+          1,
+          0,
+          0
+        ],
+        [
+          7,
+          6,
+          0,
+          181,
+          1,
+          0,
+          3,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          30,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          12,
+          6,
+          0,
+          2,
+          0,
+          146,
+          8,
+          26,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          12,
+          1,
+          0,
+          1,
+          134,
+          30,
+          2,
+          0
+        ],
+        [
+          25,
+          12,
+          3,
+          0,
+          0,
+          2,
+          23,
+          192,
+          2,
+          4
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          2,
+          129,
+          5
+        ],
+        [
+          3,
+          3,
+          2,
+          2,
+          0,
+          0,
+          1,
+          1,
+          3,
+          172
+        ]
+      ]
+    },
+    {
+      "condition": "noise",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.8134160090191658,
+      "macro_f1": 0.8029445966531649,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.45038167938931295,
+          "recall": 0.5462962962962963,
+          "f1-score": 0.49372384937238495,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.8341968911917098,
+          "recall": 0.8702702702702703,
+          "f1-score": 0.8518518518518519,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.875886524822695,
+          "recall": 0.9356060606060606,
+          "f1-score": 0.9047619047619048,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.9086294416243654,
+          "recall": 0.8817733990147784,
+          "f1-score": 0.895,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.75,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.8108108108108109,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9594594594594594,
+          "recall": 0.6926829268292682,
+          "f1-score": 0.8045325779036827,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.7351351351351352,
+          "recall": 0.7431693989071039,
+          "f1-score": 0.7391304347826086,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.7074074074074074,
+          "recall": 0.7262357414448669,
+          "f1-score": 0.7166979362101313,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.9014084507042254,
+          "recall": 0.9014084507042254,
+          "f1-score": 0.9014084507042254,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9139784946236559,
+          "recall": 0.9090909090909091,
+          "f1-score": 0.9115281501340483,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          59,
+          2,
+          13,
+          10,
+          3,
+          0,
+          2,
+          15,
+          1,
+          3
+        ],
+        [
+          4,
+          161,
+          5,
+          2,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          4,
+          247,
+          1,
+          0,
+          0,
+          7,
+          1,
+          0,
+          0
+        ],
+        [
+          8,
+          7,
+          0,
+          179,
+          1,
+          0,
+          3,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          30,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          19,
+          5,
+          0,
+          1,
+          0,
+          142,
+          9,
+          24,
+          2,
+          3
+        ],
+        [
+          2,
+          1,
+          12,
+          1,
+          0,
+          1,
+          136,
+          28,
+          2,
+          0
+        ],
+        [
+          28,
+          10,
+          3,
+          0,
+          0,
+          3,
+          23,
+          191,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          2,
+          128,
+          5
+        ],
+        [
+          3,
+          3,
+          2,
+          2,
+          2,
+          1,
+          0,
+          1,
+          3,
+          170
+        ]
+      ]
+    },
+    {
+      "condition": "noise",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.7993235625704622,
+      "macro_f1": 0.7940102146515906,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.4233576642335766,
+          "recall": 0.5370370370370371,
+          "f1-score": 0.47346938775510206,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.8478260869565217,
+          "recall": 0.8432432432432433,
+          "f1-score": 0.8455284552845529,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8706293706293706,
+          "recall": 0.9431818181818182,
+          "f1-score": 0.9054545454545454,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.925531914893617,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.8900255754475703,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.8529411764705882,
+          "recall": 0.8529411764705882,
+          "f1-score": 0.8529411764705882,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9424460431654677,
+          "recall": 0.6390243902439025,
+          "f1-score": 0.7616279069767442,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.6938775510204082,
+          "recall": 0.7431693989071039,
+          "f1-score": 0.7176781002638523,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6739130434782609,
+          "recall": 0.7072243346007605,
+          "f1-score": 0.6901669758812616,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8896551724137931,
+          "recall": 0.9084507042253521,
+          "f1-score": 0.8989547038327527,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.8994708994708994,
+          "recall": 0.9090909090909091,
+          "f1-score": 0.9042553191489362,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          58,
+          2,
+          13,
+          8,
+          1,
+          0,
+          6,
+          16,
+          1,
+          3
+        ],
+        [
+          7,
+          156,
+          5,
+          2,
+          1,
+          2,
+          3,
+          6,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          249,
+          1,
+          0,
+          0,
+          8,
+          1,
+          0,
+          0
+        ],
+        [
+          9,
+          7,
+          0,
+          174,
+          1,
+          0,
+          6,
+          6,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          29,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          21,
+          4,
+          0,
+          0,
+          0,
+          131,
+          9,
+          33,
+          2,
+          5
+        ],
+        [
+          2,
+          1,
+          13,
+          1,
+          0,
+          2,
+          136,
+          26,
+          2,
+          0
+        ],
+        [
+          30,
+          8,
+          4,
+          0,
+          0,
+          3,
+          25,
+          186,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          1,
+          129,
+          5
+        ],
+        [
+          3,
+          4,
+          2,
+          1,
+          0,
+          1,
+          0,
+          1,
+          5,
+          170
+        ]
+      ]
+    },
+    {
+      "condition": "brightness",
+      "severity": 1,
+      "n_samples": 1774,
+      "accuracy": 0.7812852311161218,
+      "macro_f1": 0.776155768460594,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.36464088397790057,
+          "recall": 0.6111111111111112,
+          "f1-score": 0.45674740484429066,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.9178082191780822,
+          "recall": 0.7243243243243244,
+          "f1-score": 0.8096676737160121,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8551724137931035,
+          "recall": 0.9393939393939394,
+          "f1-score": 0.8953068592057761,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.900497512437811,
+          "recall": 0.8916256157635468,
+          "f1-score": 0.8960396039603961,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.7631578947368421,
+          "recall": 0.8529411764705882,
+          "f1-score": 0.8055555555555556,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.9512195121951219,
+          "recall": 0.5707317073170731,
+          "f1-score": 0.7134146341463414,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.6923076923076923,
+          "recall": 0.7377049180327869,
+          "f1-score": 0.7142857142857143,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6678832116788321,
+          "recall": 0.6958174904942965,
+          "f1-score": 0.6815642458100558,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.8525641025641025,
+          "recall": 0.9366197183098591,
+          "f1-score": 0.8926174496644296,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9411764705882353,
+          "recall": 0.8556149732620321,
+          "f1-score": 0.896358543417367,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          66,
+          1,
+          13,
+          10,
+          2,
+          0,
+          4,
+          9,
+          1,
+          2
+        ],
+        [
+          16,
+          134,
+          11,
+          2,
+          1,
+          2,
+          4,
+          10,
+          3,
+          2
+        ],
+        [
+          5,
+          3,
+          248,
+          1,
+          0,
+          0,
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          12,
+          2,
+          2,
+          181,
+          1,
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          29,
+          0,
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          32,
+          1,
+          0,
+          1,
+          0,
+          117,
+          16,
+          35,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          10,
+          1,
+          0,
+          1,
+          135,
+          30,
+          2,
+          0
+        ],
+        [
+          39,
+          3,
+          4,
+          0,
+          0,
+          3,
+          25,
+          183,
+          3,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          2,
+          133,
+          2
+        ],
+        [
+          6,
+          1,
+          2,
+          3,
+          2,
+          0,
+          1,
+          2,
+          10,
+          160
+        ]
+      ]
+    },
+    {
+      "condition": "brightness",
+      "severity": 2,
+      "n_samples": 1774,
+      "accuracy": 0.709695603156708,
+      "macro_f1": 0.7038590005597352,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.24381625441696114,
+          "recall": 0.6388888888888888,
+          "f1-score": 0.35294117647058826,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.9438202247191011,
+          "recall": 0.4540540540540541,
+          "f1-score": 0.6131386861313869,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.845360824742268,
+          "recall": 0.9318181818181818,
+          "f1-score": 0.8864864864864865,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.8774509803921569,
+          "recall": 0.8817733990147784,
+          "f1-score": 0.8796068796068796,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.6944444444444444,
+          "recall": 0.7352941176470589,
+          "f1-score": 0.7142857142857143,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 0.989247311827957,
+          "recall": 0.44878048780487806,
+          "f1-score": 0.6174496644295302,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.6222222222222222,
+          "recall": 0.7650273224043715,
+          "f1-score": 0.6862745098039216,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6538461538461539,
+          "recall": 0.5817490494296578,
+          "f1-score": 0.6156941649899397,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.75,
+          "recall": 0.971830985915493,
+          "f1-score": 0.8466257668711656,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9851851851851852,
+          "recall": 0.7112299465240641,
+          "f1-score": 0.8260869565217391,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          69,
+          0,
+          13,
+          10,
+          1,
+          0,
+          3,
+          8,
+          3,
+          1
+        ],
+        [
+          55,
+          84,
+          16,
+          5,
+          3,
+          0,
+          5,
+          13,
+          4,
+          0
+        ],
+        [
+          4,
+          2,
+          246,
+          1,
+          0,
+          0,
+          10,
+          1,
+          0,
+          0
+        ],
+        [
+          13,
+          2,
+          3,
+          179,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          25,
+          0,
+          1,
+          0,
+          4,
+          0
+        ],
+        [
+          58,
+          1,
+          0,
+          0,
+          0,
+          92,
+          19,
+          33,
+          2,
+          0
+        ],
+        [
+          6,
+          0,
+          9,
+          2,
+          0,
+          1,
+          140,
+          23,
+          2,
+          0
+        ],
+        [
+          60,
+          0,
+          2,
+          1,
+          0,
+          0,
+          41,
+          153,
+          5,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          138,
+          0
+        ],
+        [
+          16,
+          0,
+          2,
+          2,
+          5,
+          0,
+          2,
+          1,
+          26,
+          133
+        ]
+      ]
+    },
+    {
+      "condition": "brightness",
+      "severity": 3,
+      "n_samples": 1774,
+      "accuracy": 0.5620067643742954,
+      "macro_f1": 0.5656716368398691,
+      "per_class": {
+        "Disturbed Galaxies": {
+          "precision": 0.1447084233261339,
+          "recall": 0.6203703703703703,
+          "f1-score": 0.23467600700525393,
+          "support": 108.0
+        },
+        "Merging Galaxies": {
+          "precision": 0.8448275862068966,
+          "recall": 0.2648648648648649,
+          "f1-score": 0.40329218106995884,
+          "support": 185.0
+        },
+        "Round Smooth Galaxies": {
+          "precision": 0.8672199170124482,
+          "recall": 0.7916666666666666,
+          "f1-score": 0.8277227722772277,
+          "support": 264.0
+        },
+        "In-between Round Smooth Galaxies": {
+          "precision": 0.9197530864197531,
+          "recall": 0.7339901477832512,
+          "f1-score": 0.8164383561643835,
+          "support": 203.0
+        },
+        "Cigar Shaped Smooth Galaxies": {
+          "precision": 0.8947368421052632,
+          "recall": 0.5,
+          "f1-score": 0.6415094339622641,
+          "support": 34.0
+        },
+        "Barred Spiral Galaxies": {
+          "precision": 1.0,
+          "recall": 0.18048780487804877,
+          "f1-score": 0.30578512396694213,
+          "support": 205.0
+        },
+        "Unbarred Tight Spiral Galaxies": {
+          "precision": 0.4273972602739726,
+          "recall": 0.8524590163934426,
+          "f1-score": 0.5693430656934306,
+          "support": 183.0
+        },
+        "Unbarred Loose Spiral Galaxies": {
+          "precision": 0.6842105263157895,
+          "recall": 0.24714828897338403,
+          "f1-score": 0.36312849162011174,
+          "support": 263.0
+        },
+        "Edge-on Galaxies without Bulge": {
+          "precision": 0.6199095022624435,
+          "recall": 0.9647887323943662,
+          "f1-score": 0.7548209366391184,
+          "support": 142.0
+        },
+        "Edge-on Galaxies with Bulge": {
+          "precision": 0.9823008849557522,
+          "recall": 0.5935828877005348,
+          "f1-score": 0.74,
+          "support": 187.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          67,
+          1,
+          13,
+          5,
+          0,
+          0,
+          12,
+          3,
+          6,
+          1
+        ],
+        [
+          105,
+          49,
+          11,
+          4,
+          1,
+          0,
+          7,
+          3,
+          5,
+          0
+        ],
+        [
+          12,
+          4,
+          209,
+          1,
+          0,
+          0,
+          32,
+          1,
+          5,
+          0
+        ],
+        [
+          18,
+          2,
+          3,
+          149,
+          1,
+          0,
+          26,
+          1,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1,
+          17,
+          0,
+          4,
+          0,
+          9,
+          0
+        ],
+        [
+          117,
+          0,
+          0,
+          0,
+          0,
+          37,
+          32,
+          16,
+          3,
+          0
+        ],
+        [
+          16,
+          0,
+          3,
+          0,
+          0,
+          0,
+          156,
+          6,
+          2,
+          0
+        ],
+        [
+          93,
+          2,
+          2,
+          0,
+          0,
+          0,
+          92,
+          65,
+          8,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          137,
+          0
+        ],
+        [
+          28,
+          0,
+          0,
+          2,
+          0,
+          0,
+          3,
+          0,
+          43,
+          111
+        ]
+      ]
+    }
+  ],
+  "note": "Synthetic stress tests only; results do not establish cross-survey generalization."
+}

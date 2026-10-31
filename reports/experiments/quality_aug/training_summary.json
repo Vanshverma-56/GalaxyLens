@@ -1,0 +1,10 @@
+{
+  "checkpoint": "artifacts/checkpoints/quality_aug_best.pt",
+  "best_epoch": 3,
+  "best_validation_macro_f1": 0.7833480753572236,
+  "epochs_completed": 7,
+  "elapsed_seconds": 627.33,
+  "device": "cuda",
+  "test_set_used_for_selection": false,
+  "history_path": "reports/experiments/quality_aug/history.json"
+}

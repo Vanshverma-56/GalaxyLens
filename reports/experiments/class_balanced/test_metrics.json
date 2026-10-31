@@ -1,0 +1,207 @@
+{
+  "accuracy": 0.7959413754227734,
+  "macro_f1": 0.7834173968224498,
+  "classification_report": {
+    "Disturbed Galaxies": {
+      "precision": 0.4657534246575342,
+      "recall": 0.3148148148148148,
+      "f1-score": 0.3756906077348066,
+      "support": 108.0
+    },
+    "Merging Galaxies": {
+      "precision": 0.7236842105263158,
+      "recall": 0.8918918918918919,
+      "f1-score": 0.7990314769975787,
+      "support": 185.0
+    },
+    "Round Smooth Galaxies": {
+      "precision": 0.9487179487179487,
+      "recall": 0.8409090909090909,
+      "f1-score": 0.891566265060241,
+      "support": 264.0
+    },
+    "In-between Round Smooth Galaxies": {
+      "precision": 0.9072164948453608,
+      "recall": 0.8669950738916257,
+      "f1-score": 0.8866498740554156,
+      "support": 203.0
+    },
+    "Cigar Shaped Smooth Galaxies": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.8695652173913043,
+      "support": 34.0
+    },
+    "Barred Spiral Galaxies": {
+      "precision": 0.8,
+      "recall": 0.8780487804878049,
+      "f1-score": 0.8372093023255814,
+      "support": 205.0
+    },
+    "Unbarred Tight Spiral Galaxies": {
+      "precision": 0.6415929203539823,
+      "recall": 0.7923497267759563,
+      "f1-score": 0.7090464547677262,
+      "support": 183.0
+    },
+    "Unbarred Loose Spiral Galaxies": {
+      "precision": 0.6900826446280992,
+      "recall": 0.6349809885931559,
+      "f1-score": 0.6613861386138614,
+      "support": 263.0
+    },
+    "Edge-on Galaxies without Bulge": {
+      "precision": 0.9504132231404959,
+      "recall": 0.8098591549295775,
+      "f1-score": 0.8745247148288974,
+      "support": 142.0
+    },
+    "Edge-on Galaxies with Bulge": {
+      "precision": 0.9081632653061225,
+      "recall": 0.9518716577540107,
+      "f1-score": 0.9295039164490861,
+      "support": 187.0
+    },
+    "accuracy": 0.7959413754227734,
+    "macro avg": {
+      "precision": 0.7892766989318716,
+      "recall": 0.7864074121224399,
+      "f1-score": 0.7834173968224498,
+      "support": 1774.0
+    },
+    "weighted avg": {
+      "precision": 0.7979936533982807,
+      "recall": 0.7959413754227734,
+      "f1-score": 0.7929265779124772,
+      "support": 1774.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      34,
+      5,
+      9,
+      11,
+      2,
+      12,
+      7,
+      23,
+      1,
+      4
+    ],
+    [
+      2,
+      165,
+      1,
+      2,
+      0,
+      6,
+      1,
+      6,
+      0,
+      2
+    ],
+    [
+      2,
+      9,
+      222,
+      0,
+      0,
+      4,
+      22,
+      5,
+      0,
+      0
+    ],
+    [
+      12,
+      8,
+      1,
+      176,
+      0,
+      1,
+      4,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      30,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      6,
+      0,
+      1,
+      0,
+      180,
+      7,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      1,
+      2,
+      0,
+      2,
+      145,
+      27,
+      1,
+      0
+    ],
+    [
+      16,
+      22,
+      0,
+      0,
+      0,
+      16,
+      36,
+      167,
+      1,
+      5
+    ],
+    [
+      4,
+      8,
+      0,
+      0,
+      2,
+      0,
+      2,
+      4,
+      115,
+      7
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      4,
+      0,
+      0,
+      2,
+      178
+    ]
+  ],
+  "split": "test",
+  "checkpoint": "artifacts/checkpoints/class_balanced_best.pt",
+  "split_manifest": "data/splits/split_seed42.json",
+  "n_samples": 1774,
+  "mean_max_softmax_confidence": 0.8590136461774688,
+  "confidence_note": "Maximum softmax is a confidence score, not a calibrated probability."
+}

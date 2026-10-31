@@ -1,0 +1,141 @@
+{
+  "experiment": "Baseline vs Quality Augmentation",
+  "test_split": "split_seed42.json",
+  "seed": 2026,
+  "baseline_checkpoint": "artifacts/checkpoints/baseline_best.pt",
+  "augmented_checkpoint": "artifacts/checkpoints/quality_aug_best.pt",
+  "conditions_compared": 13,
+  "results": [
+    {
+      "condition": "clean",
+      "severity": 0,
+      "baseline_accuracy": 0.8173618940248027,
+      "augmented_accuracy": 0.8128523111612176,
+      "accuracy_change_pp": -0.45,
+      "baseline_macro_f1": 0.8080834886580052,
+      "augmented_macro_f1": 0.7879935232238988,
+      "macro_f1_change_pp": -2.01
+    },
+    {
+      "condition": "blur",
+      "severity": 1,
+      "baseline_accuracy": 0.8066516347237881,
+      "augmented_accuracy": 0.8173618940248027,
+      "accuracy_change_pp": 1.07,
+      "baseline_macro_f1": 0.7912935796068151,
+      "augmented_macro_f1": 0.7950914174589947,
+      "macro_f1_change_pp": 0.38
+    },
+    {
+      "condition": "blur",
+      "severity": 2,
+      "baseline_accuracy": 0.7869222096956031,
+      "augmented_accuracy": 0.8111612175873731,
+      "accuracy_change_pp": 2.42,
+      "baseline_macro_f1": 0.7726653168231784,
+      "augmented_macro_f1": 0.787417534611896,
+      "macro_f1_change_pp": 1.48
+    },
+    {
+      "condition": "blur",
+      "severity": 3,
+      "baseline_accuracy": 0.7632468996617813,
+      "augmented_accuracy": 0.8021420518602029,
+      "accuracy_change_pp": 3.89,
+      "baseline_macro_f1": 0.7618853573643325,
+      "augmented_macro_f1": 0.77747543437464,
+      "macro_f1_change_pp": 1.56
+    },
+    {
+      "condition": "resolution",
+      "severity": 1,
+      "baseline_accuracy": 0.7886133032694476,
+      "augmented_accuracy": 0.8139797068771139,
+      "accuracy_change_pp": 2.54,
+      "baseline_macro_f1": 0.776034929314007,
+      "augmented_macro_f1": 0.7903752841430852,
+      "macro_f1_change_pp": 1.43
+    },
+    {
+      "condition": "resolution",
+      "severity": 2,
+      "baseline_accuracy": 0.7497181510710259,
+      "augmented_accuracy": 0.7993235625704622,
+      "accuracy_change_pp": 4.96,
+      "baseline_macro_f1": 0.7500889186146896,
+      "augmented_macro_f1": 0.7741685262719489,
+      "macro_f1_change_pp": 2.41
+    },
+    {
+      "condition": "resolution",
+      "severity": 3,
+      "baseline_accuracy": 0.3968432919954904,
+      "augmented_accuracy": 0.6826381059751973,
+      "accuracy_change_pp": 28.58,
+      "baseline_macro_f1": 0.3524348708987022,
+      "augmented_macro_f1": 0.6560191250332176,
+      "macro_f1_change_pp": 30.36
+    },
+    {
+      "condition": "noise",
+      "severity": 1,
+      "baseline_accuracy": 0.8167981961668546,
+      "augmented_accuracy": 0.8139797068771139,
+      "accuracy_change_pp": -0.28,
+      "baseline_macro_f1": 0.8075082279116532,
+      "augmented_macro_f1": 0.7896977458825902,
+      "macro_f1_change_pp": -1.78
+    },
+    {
+      "condition": "noise",
+      "severity": 2,
+      "baseline_accuracy": 0.8134160090191658,
+      "augmented_accuracy": 0.8066516347237881,
+      "accuracy_change_pp": -0.68,
+      "baseline_macro_f1": 0.8029445966531649,
+      "augmented_macro_f1": 0.7844903091255192,
+      "macro_f1_change_pp": -1.85
+    },
+    {
+      "condition": "noise",
+      "severity": 3,
+      "baseline_accuracy": 0.7993235625704622,
+      "augmented_accuracy": 0.7953776775648252,
+      "accuracy_change_pp": -0.39,
+      "baseline_macro_f1": 0.7940102146515906,
+      "augmented_macro_f1": 0.7723748443005624,
+      "macro_f1_change_pp": -2.16
+    },
+    {
+      "condition": "brightness",
+      "severity": 1,
+      "baseline_accuracy": 0.7812852311161218,
+      "augmented_accuracy": 0.8066516347237881,
+      "accuracy_change_pp": 2.54,
+      "baseline_macro_f1": 0.776155768460594,
+      "augmented_macro_f1": 0.7843852244042141,
+      "macro_f1_change_pp": 0.82
+    },
+    {
+      "condition": "brightness",
+      "severity": 2,
+      "baseline_accuracy": 0.709695603156708,
+      "augmented_accuracy": 0.7671927846674182,
+      "accuracy_change_pp": 5.75,
+      "baseline_macro_f1": 0.7038590005597352,
+      "augmented_macro_f1": 0.7424432165829299,
+      "macro_f1_change_pp": 3.86
+    },
+    {
+      "condition": "brightness",
+      "severity": 3,
+      "baseline_accuracy": 0.5620067643742954,
+      "augmented_accuracy": 0.6922209695603156,
+      "accuracy_change_pp": 13.02,
+      "baseline_macro_f1": 0.5656716368398691,
+      "augmented_macro_f1": 0.656954277674413,
+      "macro_f1_change_pp": 9.13
+    }
+  ],
+  "interpretation": "Quality augmentation improved robustness particularly under severe resolution degradation and brightness reduction, while slightly reducing clean macro-F1 and noise robustness."
+}
