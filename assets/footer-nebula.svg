@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" role="img" aria-label="GalaxyLens-Robust Deep Space Footer">
+  <defs>
+    <linearGradient id="ftBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040714"/>
+      <stop offset="50%" stop-color="#0B1331"/>
+      <stop offset="100%" stop-color="#170A2E"/>
+    </linearGradient>
+    <linearGradient id="horizonArc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.1"/>
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#EC4899" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#8B5CF6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.1"/>
+    </linearGradient>
+    <radialGradient id="horizonGlow" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#040714" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="126" rx="18" fill="url(#ftBg)" stroke="url(#horizonArc)" stroke-width="1.4"/>
+  <ellipse cx="600" cy="130" rx="520" ry="95" fill="url(#horizonGlow)"/>
+
+  <!-- Curved Galactic Horizon Rim -->
+  <path d="M 80 118 Q 600 42 1120 118" fill="none" stroke="url(#horizonArc)" stroke-width="2.2"/>
+
+  <!-- Twinkling Stars -->
+  <circle cx="170" cy="36" r="1.4" fill="#7DD3FC"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="340" cy="24" r="1.2" fill="#E9D5FF"><animate attributeName="opacity" values="0.9;0.25;0.9" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="860" cy="28" r="1.5" fill="#F9A8D4"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.9s" repeatCount="indefinite"/></circle>
+  <circle cx="1040" cy="40" r="1.3" fill="#7DD3FC"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="4.2s" repeatCount="indefinite"/></circle>
+
+  <!-- Center Tagline -->
+  <text x="600" y="46" text-anchor="middle" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" letter-spacing="0.6">
+    GALAXYLENS-ROBUST · REPRODUCIBLE ASTRO-ML RESEARCH
+  </text>
+  <text x="600" y="69" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.1">
+    TEN NATIVE CLASSES · FROZEN SPLIT HYGIENE · HONEST UNCERTAINTY &amp; SELECTIVE REJECTION
+  </text>
+</svg>

@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 356" width="1200" height="356" role="img" aria-label="GalaxyLens-Robust End-to-End Scientific Architecture">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0A122E"/>
+      <stop offset="100%" stop-color="#14092B"/>
+    </linearGradient>
+    <linearGradient id="pipeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="35%" stop-color="#38BDF8"/>
+      <stop offset="68%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="flowLine1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="flowLine2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="flowLine3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <filter id="nodeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="2" y="2" width="1196" height="352" rx="18" fill="url(#pipeBg)" stroke="url(#pipeBorder)" stroke-opacity="0.75" stroke-width="1.6"/>
+
+  <!-- Subtle Background Grid -->
+  <g stroke="#38BDF8" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="88" x2="1200" y2="88"/>
+    <line x1="0" y1="176" x2="1200" y2="176"/>
+    <line x1="0" y1="264" x2="1200" y2="264"/>
+    <line x1="300" y1="0" x2="300" y2="356"/>
+    <line x1="600" y1="0" x2="600" y2="356"/>
+    <line x1="900" y1="0" x2="900" y2="356"/>
+  </g>
+
+  <!-- Title Header -->
+  <g transform="translate(36, 34)">
+    <text x="0" y="0" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">OBSERVATORY PIPELINE ARCHITECTURE</text>
+    <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">From Verified DECaLS HDF5 Archive to Degraded-Image Calibration &amp; Selective Rejection</text>
+  </g>
+
+  <!-- Animated Connector Beams Between Stages -->
+  <!-- Connector 1 -> 2 -->
+  <g>
+    <line x1="286" y1="176" x2="326" y2="176" stroke="url(#flowLine1)" stroke-width="2.5" stroke-dasharray="5 4"/>
+    <polygon points="324,171 334,176 324,181" fill="#6366F1"/>
+    <circle cx="286" cy="176" r="4" fill="#38BDF8" filter="url(#nodeGlow)">
+      <animate attributeName="cx" values="286;328;286" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Connector 2 -> 3 -->
+  <g>
+    <line x1="582" y1="176" x2="622" y2="176" stroke="url(#flowLine2)" stroke-width="2.5" stroke-dasharray="5 4"/>
+    <polygon points="620,171 630,176 620,181" fill="#A855F7"/>
+    <circle cx="582" cy="176" r="4" fill="#A855F7" filter="url(#nodeGlow)">
+      <animate attributeName="cx" values="582;624;582" dur="2.2s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Connector 3 -> 4 -->
+  <g>
+    <line x1="878" y1="176" x2="918" y2="176" stroke="url(#flowLine3)" stroke-width="2.5" stroke-dasharray="5 4"/>
+    <polygon points="916,171 926,176 916,181" fill="#EC4899"/>
+    <circle cx="878" cy="176" r="4" fill="#F472B6" filter="url(#nodeGlow)">
+      <animate attributeName="cx" values="878;920;878" dur="2.2s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- STAGE 1: DATA ARCHIVE & MEMMAP                            -->
+  <!-- ========================================================= -->
+  <g transform="translate(36, 82)">
+    <rect x="0" y="0" width="248" height="190" rx="14" fill="#0B193D" fill-opacity="0.9" stroke="#38BDF8" stroke-opacity="0.65" stroke-width="1.4"/>
+    <circle cx="24" cy="26" r="12" fill="#0E3466" stroke="#38BDF8" stroke-width="1.2"/>
+    <text x="20.5" y="30" fill="#7DD3FC" font-family="ui-monospace, monospace" font-size="11" font-weight="700">1</text>
+    <text x="44" y="30" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700">DATA &amp; FROZEN SPLIT</text>
+
+    <line x1="16" y1="46" x2="232" y2="46" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1"/>
+
+    <text x="18" y="70" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Galaxy10_DECals.h5</text>
+    <text x="18" y="92" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• 17,736 images (256×256×3)</text>
+    <text x="18" y="113" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• NumPy <tspan font-family="ui-monospace, monospace" fill="#7DD3FC">mmap</tspan> fast cache</text>
+    <text x="18" y="134" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Stratified 80 / 10 / 10 split</text>
+    <text x="18" y="155" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Native labels 0–9 retained</text>
+
+    <rect x="18" y="165" width="212" height="14" rx="7" fill="#07122B"/>
+    <rect x="18" y="165" width="170" height="14" rx="7" fill="#2563EB" opacity="0.65"/>
+    <text x="26" y="175.5" fill="#E0F2FE" font-family="ui-monospace, monospace" font-size="9.5">split_seed42.json (FROZEN)</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- STAGE 2: QUALITY PERTURBATIONS                            -->
+  <!-- ========================================================= -->
+  <g transform="translate(334, 82)">
+    <rect x="0" y="0" width="248" height="190" rx="14" fill="#101744" fill-opacity="0.9" stroke="#818CF8" stroke-opacity="0.65" stroke-width="1.4"/>
+    <circle cx="24" cy="26" r="12" fill="#1E1B5E" stroke="#818CF8" stroke-width="1.2"/>
+    <text x="20.5" y="30" fill="#A5B4FC" font-family="ui-monospace, monospace" font-size="11" font-weight="700">2</text>
+    <text x="44" y="30" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700">QUALITY DEGRADATION</text>
+
+    <line x1="16" y1="46" x2="232" y2="46" stroke="#818CF8" stroke-opacity="0.25" stroke-width="1"/>
+
+    <text x="18" y="70" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Train Aug &amp; Eval Stress</text>
+    <text x="18" y="92" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Blur (r = 0.5, 1.0, 1.8)</text>
+    <text x="18" y="113" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Downsample (2×, 4×, 8×)</text>
+    <text x="18" y="134" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Noise (σ = 3.0, 8.0, 15.0)</text>
+    <text x="18" y="155" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Brightness (0.8, 0.6, 0.4)</text>
+
+    <rect x="18" y="165" width="212" height="14" rx="7" fill="#090D2A"/>
+    <rect x="18" y="165" width="184" height="14" rx="7" fill="#6366F1" opacity="0.65"/>
+    <text x="26" y="175.5" fill="#E0E7FF" font-family="ui-monospace, monospace" font-size="9.5">1 Clean + 12 Stress Regimes</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- STAGE 3: RESNET-18 CLASSIFIER                             -->
+  <!-- ========================================================= -->
+  <g transform="translate(630, 82)">
+    <rect x="0" y="0" width="248" height="190" rx="14" fill="#191142" fill-opacity="0.9" stroke="#A855F7" stroke-opacity="0.65" stroke-width="1.4"/>
+    <circle cx="24" cy="26" r="12" fill="#2E1463" stroke="#C084FC" stroke-width="1.2"/>
+    <text x="20.5" y="30" fill="#D8B4FE" font-family="ui-monospace, monospace" font-size="11" font-weight="700">3</text>
+    <text x="44" y="30" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700">RESNET-18 CLASSIFIER</text>
+
+    <line x1="16" y1="46" x2="232" y2="46" stroke="#A855F7" stroke-opacity="0.25" stroke-width="1"/>
+
+    <text x="18" y="70" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Morphology Feature Net</text>
+    <text x="18" y="92" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• 224×224 ImageNet Normalized</text>
+    <text x="18" y="113" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Pretrained ResNet-18 + FC(10)</text>
+    <text x="18" y="134" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• AdamW (3e-4) · Deterministic</text>
+    <text x="18" y="155" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Val Macro-F1 Model Selection</text>
+
+    <rect x="18" y="165" width="212" height="14" rx="7" fill="#10092B"/>
+    <rect x="18" y="165" width="176" height="14" rx="7" fill="#9333EA" opacity="0.65"/>
+    <text x="26" y="175.5" fill="#F3E8FF" font-family="ui-monospace, monospace" font-size="9.5">10-Class Softmax Posteriors</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- STAGE 4: UNCERTAINTY & SELECTIVE REJECTION                -->
+  <!-- ========================================================= -->
+  <g transform="translate(926, 82)">
+    <rect x="0" y="0" width="238" height="190" rx="14" fill="#260E38" fill-opacity="0.9" stroke="#EC4899" stroke-opacity="0.68" stroke-width="1.4"/>
+    <circle cx="24" cy="26" r="12" fill="#4A1248" stroke="#F472B6" stroke-width="1.2"/>
+    <text x="20.5" y="30" fill="#F9A8D4" font-family="ui-monospace, monospace" font-size="11" font-weight="700">4</text>
+    <text x="44" y="30" fill="#F9A8D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700">SELECTIVE REJECTION</text>
+
+    <line x1="16" y1="46" x2="222" y2="46" stroke="#EC4899" stroke-opacity="0.25" stroke-width="1"/>
+
+    <text x="18" y="70" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Uncertainty Guardrails</text>
+    <text x="18" y="92" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• ECE (15-bin) &amp; Multi-Brier</text>
+    <text x="18" y="113" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Val-Selected Cutoffs Only</text>
+    <text x="18" y="134" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Coverage: 95% → 50%</text>
+    <text x="18" y="155" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">• Macro-F1 &amp; Confusion Matrix</text>
+
+    <rect x="18" y="165" width="202" height="14" rx="7" fill="#180723"/>
+    <rect x="18" y="165" width="166" height="14" rx="7" fill="#DB2777" opacity="0.72"/>
+    <text x="26" y="175.5" fill="#FCE7F3" font-family="ui-monospace, monospace" font-size="9.5">Abstain on Unreliable Inputs</text>
+  </g>
+
+  <!-- Bottom Scientific Protocol Bar -->
+  <g transform="translate(36, 292)">
+    <rect x="0" y="0" width="1128" height="42" rx="12" fill="#0B1330" stroke="url(#pipeBorder)" stroke-opacity="0.55" stroke-width="1.1"/>
+    <text x="20" y="25.5" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">
+      <tspan fill="#F472B6" font-weight="700">⛨ SCIENTIFIC PROTOCOL:</tspan>
+      <tspan fill="#CBD5E1"> Checkpoints &amp; rejection cutoffs chosen on </tspan>
+      <tspan fill="#7DD3FC" font-weight="700">VALIDATION ONLY</tspan>
+      <tspan fill="#CBD5E1"> · Test split strictly held out · Synthetic stress ≠ cross-survey proof</tspan>
+    </text>
+  </g>
+</svg>

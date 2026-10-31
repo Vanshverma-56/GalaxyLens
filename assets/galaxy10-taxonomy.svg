@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 356" width="1200" height="356" role="img" aria-label="10 Canonical Galaxy10 DECaLS Morphology Classes">
+  <defs>
+    <linearGradient id="taxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040715"/>
+      <stop offset="50%" stop-color="#0B1330"/>
+      <stop offset="100%" stop-color="#160B30"/>
+    </linearGradient>
+    <linearGradient id="taxBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <radialGradient id="gGlowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gGlowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#D8B4FE"/>
+      <stop offset="100%" stop-color="#4C1D95" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gGlowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#F9A8D4"/>
+      <stop offset="100%" stop-color="#831843" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="352" rx="18" fill="url(#taxBg)" stroke="url(#taxBorder)" stroke-opacity="0.7" stroke-width="1.6"/>
+
+  <!-- Header -->
+  <g transform="translate(36, 34)">
+    <text x="0" y="0" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">CANONICAL MORPHOLOGY TAXONOMY // LABELS 0–9 PRESERVED</text>
+    <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Galaxy10 DECaLS — Ten Native Astronomical Classes (No Silent Remapping)</text>
+  </g>
+
+  <!-- ================= ROW 1 (CLASSES 0 - 4) ================= -->
+  <!-- Class 0: Disturbed Galaxies -->
+  <g transform="translate(36, 80)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#0B193D" fill-opacity="0.88" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#38BDF8" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 00</text>
+    <!-- Asymmetric Disturbed Icon -->
+    <g transform="translate(172, 34)">
+      <circle cx="0" cy="0" r="18" fill="url(#gGlowBlue)" opacity="0.65"/>
+      <path d="M -12,-4 C -4,-14 10,-6 15,6 C 8,14 -8,10 -15,14" fill="none" stroke="#7DD3FC" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="-2" cy="1" r="3.5" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Disturbed</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Galaxies</text>
+  </g>
+
+  <!-- Class 1: Merging Galaxies -->
+  <g transform="translate(265, 80)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#0E1842" fill-opacity="0.88" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#60A5FA" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 01</text>
+    <!-- Merging Dual Nuclei Icon -->
+    <g transform="translate(170, 34)">
+      <circle cx="-6" cy="-4" r="13" fill="url(#gGlowBlue)"/>
+      <circle cx="7" cy="5" r="12" fill="url(#gGlowPink)"/>
+      <path d="M -14,4 Q 0,-2 14,-4" fill="none" stroke="#BAE6FD" stroke-width="1.6"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Merging</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Galaxies</text>
+  </g>
+
+  <!-- Class 2: Round Smooth Galaxies -->
+  <g transform="translate(494, 80)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#131644" fill-opacity="0.88" stroke="#818CF8" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#818CF8" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 02</text>
+    <!-- Round Smooth Icon -->
+    <g transform="translate(172, 34)">
+      <circle cx="0" cy="0" r="18" fill="url(#gGlowPurple)"/>
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Round Smooth</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Galaxies</text>
+  </g>
+
+  <!-- Class 3: In-between Round Smooth Galaxies -->
+  <g transform="translate(723, 80)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#1A1244" fill-opacity="0.88" stroke="#A855F7" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#C084FC" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 03</text>
+    <!-- In-between Smooth Elliptical Icon -->
+    <g transform="translate(172, 34) rotate(-25)">
+      <ellipse cx="0" cy="0" rx="19" ry="12" fill="url(#gGlowPurple)"/>
+      <ellipse cx="0" cy="0" rx="6" ry="3.8" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">In-between Round</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Smooth Galaxies</text>
+  </g>
+
+  <!-- Class 4: Cigar Shaped Smooth Galaxies -->
+  <g transform="translate(952, 80)">
+    <rect x="0" y="0" width="212" height="118" rx="13" fill="#24103E" fill-opacity="0.88" stroke="#EC4899" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#F472B6" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 04</text>
+    <!-- Cigar Smooth Icon -->
+    <g transform="translate(172, 34) rotate(-32)">
+      <ellipse cx="0" cy="0" rx="21" ry="6.5" fill="url(#gGlowPink)"/>
+      <ellipse cx="0" cy="0" rx="8" ry="2.5" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Cigar Shaped</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Smooth Galaxies</text>
+  </g>
+
+  <!-- ================= ROW 2 (CLASSES 5 - 9) ================= -->
+  <!-- Class 5: Barred Spiral Galaxies -->
+  <g transform="translate(36, 214)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#0B193D" fill-opacity="0.88" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#38BDF8" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 05</text>
+    <!-- Barred Spiral Icon -->
+    <g transform="translate(172, 34)">
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#F472B6" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 10,0 C 14,-10 4,-16 -6,-14" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M -10,0 C -14,10 -4,16 6,14" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Barred Spiral</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Galaxies</text>
+  </g>
+
+  <!-- Class 6: Unbarred Tight Spiral Galaxies -->
+  <g transform="translate(265, 214)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#0E1842" fill-opacity="0.88" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#60A5FA" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 06</text>
+    <!-- Tight Spiral Icon -->
+    <g transform="translate(172, 34)">
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#60A5FA" stroke-width="2" stroke-dasharray="18 6"/>
+      <circle cx="0" cy="0" r="9" fill="none" stroke="#C084FC" stroke-width="2" stroke-dasharray="12 5"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Unbarred Tight</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Spiral Galaxies</text>
+  </g>
+
+  <!-- Class 7: Unbarred Loose Spiral Galaxies -->
+  <g transform="translate(494, 214)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#131644" fill-opacity="0.88" stroke="#818CF8" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#818CF8" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 07</text>
+    <!-- Loose Open Spiral Icon -->
+    <g transform="translate(172, 34)">
+      <path d="M 0,0 C 8,-2 14,6 10,15" fill="none" stroke="#A855F7" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M 0,0 C -8,2 -14,-6 -10,-15" fill="none" stroke="#38BDF8" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M 0,0 C 2,8 -6,14 -15,10" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 0,0 C -2,-8 6,-14 15,-10" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="3.8" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Unbarred Loose</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">Spiral Galaxies</text>
+  </g>
+
+  <!-- Class 8: Edge-on Galaxies without Bulge -->
+  <g transform="translate(723, 214)">
+    <rect x="0" y="0" width="211" height="118" rx="13" fill="#1A1244" fill-opacity="0.88" stroke="#A855F7" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#C084FC" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 08</text>
+    <!-- Edge-on No Bulge Icon -->
+    <g transform="translate(172, 34) rotate(-28)">
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#C084FC" stroke-width="3.2" stroke-linecap="round"/>
+      <line x1="-12" y1="0" x2="12" y2="0" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Edge-on Galaxies</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">without Bulge</text>
+  </g>
+
+  <!-- Class 9: Edge-on Galaxies with Bulge -->
+  <g transform="translate(952, 214)">
+    <rect x="0" y="0" width="212" height="118" rx="13" fill="#24103E" fill-opacity="0.88" stroke="#EC4899" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="14" y="23" fill="#F472B6" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">LABEL 09</text>
+    <!-- Edge-on With Bulge Icon -->
+    <g transform="translate(172, 34) rotate(-28)">
+      <line x1="-19" y1="0" x2="19" y2="0" stroke="#F472B6" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="8" fill="url(#gGlowPink)"/>
+      <circle cx="0" cy="0" r="3.8" fill="#FFFFFF"/>
+    </g>
+    <text x="14" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Edge-on Galaxies</text>
+    <text x="14" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5">with Bulge</text>
+  </g>
+</svg>

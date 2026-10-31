@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="GalaxyLens-Robust Astro-ML Hero Banner">
+  <defs>
+    <!-- Deep Space Void Background -->
+    <linearGradient id="bgVoid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040714"/>
+      <stop offset="38%" stop-color="#0A1332"/>
+      <stop offset="72%" stop-color="#170B36"/>
+      <stop offset="100%" stop-color="#070B1E"/>
+    </linearGradient>
+
+    <!-- Outer Frame Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.85"/>
+      <stop offset="35%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="68%" stop-color="#9333EA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Title Gradient: Electric Blue -> Cosmic Purple -> Supernova Pink -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="35%" stop-color="#60A5FA"/>
+      <stop offset="68%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <!-- Accent Bar Gradient -->
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <!-- Nebula Glows -->
+    <radialGradient id="nebulaBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.34"/>
+      <stop offset="55%" stop-color="#1E3A8A" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#040714" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.38"/>
+      <stop offset="55%" stop-color="#4C1D95" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#040714" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#9D174D" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#040714" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Galaxy Core Glow -->
+    <radialGradient id="galaxyCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="22%" stop-color="#FBCFE8" stop-opacity="0.95"/>
+      <stop offset="48%" stop-color="#C084FC" stop-opacity="0.7"/>
+      <stop offset="75%" stop-color="#3B82F6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#0A1332" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Einstein Lens Ring Gradient -->
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Scanner Laser Gradient -->
+    <linearGradient id="scanLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#8B5CF6" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Shooting Star Gradient -->
+    <linearGradient id="meteorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#93C5FD" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- HUD Card Glass Gradient -->
+    <linearGradient id="hudGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1736" stop-opacity="0.86"/>
+      <stop offset="50%" stop-color="#111538" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#1B1037" stop-opacity="0.86"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="bannerClip">
+      <rect x="2" y="2" width="1196" height="456" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Base Deep Space Canvas -->
+    <rect x="0" y="0" width="1200" height="460" fill="url(#bgVoid)"/>
+
+    <!-- Ambient Nebulae -->
+    <circle cx="230" cy="110" r="290" fill="url(#nebulaBlue)">
+      <animate attributeName="r" values="280;315;280" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="240" r="310" fill="url(#nebulaPurple)">
+      <animate attributeName="r" values="300;335;300" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="995" cy="130" r="230" fill="url(#nebulaPink)">
+      <animate attributeName="r" values="220;255;220" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="390" r="240" fill="url(#nebulaBlue)"/>
+
+    <!-- Subtle Astronomical Coordinate Grid -->
+    <g stroke="#38BDF8" stroke-opacity="0.07" stroke-width="1" fill="none">
+      <line x1="0" y1="92" x2="1200" y2="92"/>
+      <line x1="0" y1="184" x2="1200" y2="184"/>
+      <line x1="0" y1="276" x2="1200" y2="276"/>
+      <line x1="200" y1="0" x2="200" y2="460"/>
+      <line x1="400" y1="0" x2="400" y2="460"/>
+      <line x1="600" y1="0" x2="600" y2="460"/>
+      <line x1="800" y1="0" x2="800" y2="460"/>
+      <line x1="1000" y1="0" x2="1000" y2="460"/>
+      <circle cx="945" cy="190" r="210"/>
+      <circle cx="945" cy="190" r="275"/>
+    </g>
+
+    <!-- Animated Twinkling Starfield -->
+    <g fill="#FFFFFF">
+      <circle cx="48" cy="38" r="1.3" fill="#BAE6FD"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="132" cy="26" r="1.0"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="278" cy="44" r="1.6" fill="#E9D5FF"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="364" cy="22" r="1.1"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="485" cy="54" r="1.5" fill="#FBCFE8"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="4.6s" repeatCount="indefinite"/></circle>
+      <circle cx="545" cy="28" r="1.0" fill="#BAE6FD"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.3s" repeatCount="indefinite"/></circle>
+      <circle cx="628" cy="68" r="1.8" fill="#FFFFFF"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="688" cy="34" r="1.2" fill="#C4B5FD"><animate attributeName="opacity" values="0.9;0.25;0.9" dur="5.0s" repeatCount="indefinite"/></circle>
+      <circle cx="755" cy="84" r="1.4" fill="#F9A8D4"><animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.9s" repeatCount="indefinite"/></circle>
+      <circle cx="732" cy="162" r="1.1"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.4s" repeatCount="indefinite"/></circle>
+      <circle cx="662" cy="226" r="1.5" fill="#7DD3FC"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="724" cy="292" r="1.3" fill="#E9D5FF"><animate attributeName="opacity" values="0.85;0.3;0.85" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="818" cy="36" r="1.6" fill="#BAE6FD"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1086" cy="40" r="1.5" fill="#FBCFE8"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1148" cy="76" r="1.2"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="1162" cy="178" r="1.6" fill="#7DD3FC"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="285" r="1.3" fill="#E9D5FF"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.8s" repeatCount="indefinite"/></circle>
+      <circle cx="1075" cy="318" r="1.1" fill="#F9A8D4"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="32" cy="240" r="1.2" fill="#93C5FD"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.0s" repeatCount="indefinite"/></circle>
+      <circle cx="590" cy="145" r="1.1" fill="#FBCFE8"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="622" cy="306" r="1.4" fill="#93C5FD"><animate attributeName="opacity" values="0.75;0.2;0.75" dur="4.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Four-Point Sparkle Stars -->
+    <g fill="#F472B6" filter="url(#softGlow)">
+      <path d="M 655 112 L 657 117 L 662 119 L 657 121 L 655 126 L 653 121 L 648 119 L 653 117 Z">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g fill="#38BDF8" filter="url(#softGlow)">
+      <path d="M 1118 118 L 1120 123 L 1125 125 L 1120 127 L 1118 132 L 1116 127 L 1111 125 L 1116 123 Z">
+        <animate attributeName="opacity" values="0.95;0.25;0.95" dur="4.1s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g fill="#C084FC" filter="url(#softGlow)">
+      <path d="M 776 286 L 778 290 L 782 292 L 778 294 L 776 298 L 774 294 L 770 292 L 774 290 Z">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="2.9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Animated Shooting Comet Streak -->
+    <g opacity="0.85">
+      <line x1="-120" y1="30" x2="-30" y2="55" stroke="url(#meteorGrad)" stroke-width="2.2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 1380 320; 1380 320" keyTimes="0; 0.28; 1" dur="8.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0; 1; 0; 0" keyTimes="0; 0.08; 0.28; 1" dur="8.5s" repeatCount="indefinite"/>
+      </line>
+    </g>
+
+    <!-- ======================================================================= -->
+    <!-- RIGHT CENTERPIECE: ANIMATED SPIRAL GALAXY & GRAVITATIONAL LENS RETICLE  -->
+    <!-- ======================================================================= -->
+    <g transform="translate(948, 174)">
+      <!-- Outer Technical Observatory Compass Ring -->
+      <g>
+        <circle cx="0" cy="0" r="144" fill="none" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="6 8"/>
+        <circle cx="0" cy="0" r="132" fill="none" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="36 14 8 14"/>
+        <!-- Compass Tick Marks -->
+        <line x1="0" y1="-150" x2="0" y2="-138" stroke="#38BDF8" stroke-width="2"/>
+        <line x1="0" y1="138" x2="0" y2="150" stroke="#EC4899" stroke-width="2"/>
+        <line x1="-150" y1="0" x2="-138" y2="0" stroke="#8B5CF6" stroke-width="2"/>
+        <line x1="138" y1="0" x2="150" y2="0" stroke="#38BDF8" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Counter-Rotating Einstein Gravitational Lens Arcs -->
+      <g filter="url(#softGlow)">
+        <circle cx="0" cy="0" r="116" fill="none" stroke="url(#lensGrad)" stroke-width="2.2" stroke-dasharray="145 55 95 65" stroke-linecap="round"/>
+        <circle cx="0" cy="0" r="106" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.1" stroke-dasharray="50 90"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Tilted Spiral Galaxy Plane -->
+      <g transform="rotate(-24) scale(1, 0.62)">
+        <g>
+          <!-- Soft Galactic Halo -->
+          <circle cx="0" cy="0" r="108" fill="url(#nebulaPurple)"/>
+          <circle cx="0" cy="0" r="82" fill="url(#nebulaBlue)"/>
+
+          <!-- Outer Spiral Arms (Electric Blue & Violet) -->
+          <path d="M 0,0 C 28,-8 58,14 66,46 C 74,78 44,104 4,106 C -42,108 -86,78 -98,32"
+                fill="none" stroke="#38BDF8" stroke-width="7" stroke-opacity="0.38" stroke-linecap="round" filter="url(#softGlow)"/>
+          <path d="M 0,0 C -28,8 -58,-14 -66,-46 C -74,-78 -44,-104 -4,-106 C 42,-108 86,-78 98,-32"
+                fill="none" stroke="#38BDF8" stroke-width="7" stroke-opacity="0.38" stroke-linecap="round" filter="url(#softGlow)"/>
+
+          <!-- Secondary Spiral Arms (Cosmic Purple & Supernova Pink) -->
+          <path d="M 0,0 C 12,24 -10,54 -40,64 C -72,74 -102,46 -104,6"
+                fill="none" stroke="#A855F7" stroke-width="6" stroke-opacity="0.48" stroke-linecap="round" filter="url(#softGlow)"/>
+          <path d="M 0,0 C -12,-24 10,-54 40,-64 C 72,-74 102,-46 104,-6"
+                fill="none" stroke="#A855F7" stroke-width="6" stroke-opacity="0.48" stroke-linecap="round" filter="url(#softGlow)"/>
+
+          <!-- Inner Bright Star-Forming Spiral Filaments -->
+          <path d="M 0,0 C 22,-6 46,11 52,36 C 58,62 34,82 3,84 C -33,86 -68,62 -78,25"
+                fill="none" stroke="#F472B6" stroke-width="3.2" stroke-opacity="0.85" stroke-linecap="round"/>
+          <path d="M 0,0 C -22,6 -46,-11 -52,-36 C -58,-62 -34,-82 -3,-84 C 33,-86 68,-62 78,-25"
+                fill="none" stroke="#60A5FA" stroke-width="3.2" stroke-opacity="0.88" stroke-linecap="round"/>
+          <path d="M 0,0 C 10,19 -8,43 -32,51 C -58,59 -82,36 -84,5"
+                fill="none" stroke="#E879F9" stroke-width="2.6" stroke-opacity="0.8" stroke-linecap="round"/>
+          <path d="M 0,0 C -10,-19 8,-43 32,-51 C 58,-59 82,-36 84,-5"
+                fill="none" stroke="#38BDF8" stroke-width="2.6" stroke-opacity="0.8" stroke-linecap="round"/>
+
+          <!-- Central Galactic Bar & Star-Forming H-II Knots -->
+          <ellipse cx="0" cy="0" rx="34" ry="11" transform="rotate(14)" fill="#F472B6" opacity="0.45" filter="url(#softGlow)"/>
+          <circle cx="48" cy="28" r="3.2" fill="#7DD3FC" filter="url(#softGlow)"/>
+          <circle cx="-48" cy="-28" r="3.2" fill="#F472B6" filter="url(#softGlow)"/>
+          <circle cx="-26" cy="50" r="2.6" fill="#E9D5FF"/>
+          <circle cx="26" cy="-50" r="2.6" fill="#7DD3FC"/>
+          <circle cx="12" cy="78" r="2.8" fill="#F9A8D4"/>
+          <circle cx="-12" cy="-78" r="2.8" fill="#BAE6FD"/>
+          <circle cx="-72" cy="22" r="2.4" fill="#F472B6"/>
+          <circle cx="72" cy="-22" r="2.4" fill="#38BDF8"/>
+
+          <!-- Luminous Galactic Bulge / Core -->
+          <circle cx="0" cy="0" r="34" fill="url(#galaxyCore)" filter="url(#strongGlow)">
+            <animate attributeName="r" values="31;37;31" dur="4.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="0" cy="0" r="9" fill="#FFFFFF"/>
+
+          <!-- Continuous Galactic Rotation -->
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+        </g>
+      </g>
+
+      <!-- Optical Degradation HUD Corner Brackets -->
+      <g stroke="#38BDF8" stroke-width="1.8" fill="none" opacity="0.75">
+        <path d="M -138,-112 L -138,-128 L -122,-128"/>
+        <path d="M 122,-128 L 138,-128 L 138,-112" stroke="#EC4899"/>
+        <path d="M -138,112 L -138,128 L -122,128" stroke="#A855F7"/>
+        <path d="M 122,128 L 138,128 L 138,112"/>
+      </g>
+
+      <!-- Animated Optical Scanner Beam Sweeping Across Galaxy -->
+      <line x1="-130" y1="-90" x2="130" y2="-90" stroke="url(#scanLaser)" stroke-width="2" opacity="0.75">
+        <animate attributeName="y1" values="-98;98;-98" dur="6.5s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="-98;98;-98" dur="6.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0.85;0.25" dur="3.25s" repeatCount="indefinite"/>
+      </line>
+
+      <!-- Mini Telemetry Callouts Around Reticle -->
+      <text x="-136" y="-136" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1">DECaLS · 256×256 RGB</text>
+      <text x="42" y="144" fill="#F472B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1">LENS-HUD // 10-CLASS</text>
+    </g>
+
+    <!-- ======================================================================= -->
+    <!-- LEFT HERO CONTENT: BADGE, GRADIENT TITLE, SUBTITLE & FEATURE PILLS      -->
+    <!-- ======================================================================= -->
+    <!-- Eyebrow Mission Pill -->
+    <g transform="translate(56, 42)">
+      <rect x="0" y="0" width="466" height="32" rx="16" fill="#0D183A" fill-opacity="0.88" stroke="#3B82F6" stroke-opacity="0.55" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="4.5" fill="#EC4899" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="20.5" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.4">DEEP-SPACE MORPHOLOGY &amp; ROBUSTNESS LAB</text>
+    </g>
+
+    <!-- Hero Title -->
+    <g transform="translate(56, 138)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-1.2">
+        <tspan fill="url(#titleGrad)">GalaxyLens</tspan><tspan fill="#F8FAFC">-Robust</tspan>
+      </text>
+      <!-- Animated Glowing Underline Accent -->
+      <rect x="2" y="16" width="320" height="4" rx="2" fill="url(#beamGrad)">
+        <animate attributeName="width" values="260;380;260" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Core Research Subtitle -->
+    <g transform="translate(56, 188)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" fill="#CBD5E1">
+      <text x="0" y="0">A reproducible study of how <tspan fill="#7DD3FC" font-weight="600">image-quality degradation</tspan> affects galaxy morphology</text>
+      <text x="0" y="25">classification — evaluating <tspan fill="#C084FC" font-weight="600">quality augmentation</tspan> &amp; <tspan fill="#F472B6" font-weight="600">uncertainty-based rejection</tspan>.</text>
+    </g>
+
+    <!-- Feature Accent Pills -->
+    <g transform="translate(56, 238)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">
+      <!-- Pill 1: Electric Blue -->
+      <rect x="0" y="0" width="218" height="32" rx="16" fill="#0F2350" fill-opacity="0.85" stroke="#38BDF8" stroke-opacity="0.65" stroke-width="1.2"/>
+      <text x="16" y="20.5" fill="#BAE6FD">✦  Galaxy10 DECaLS (0–9)</text>
+
+      <!-- Pill 2: Cosmic Purple -->
+      <rect x="230" y="0" width="222" height="32" rx="16" fill="#1E1145" fill-opacity="0.85" stroke="#A855F7" stroke-opacity="0.65" stroke-width="1.2"/>
+      <text x="246" y="20.5" fill="#E9D5FF">◈  4 Degradation Stressors</text>
+
+      <!-- Pill 3: Supernova Pink -->
+      <rect x="464" y="0" width="234" height="32" rx="16" fill="#2D0F35" fill-opacity="0.85" stroke="#EC4899" stroke-opacity="0.65" stroke-width="1.2"/>
+      <text x="480" y="20.5" fill="#FBCFE8">⛨  Selective Abstention &amp; ECE</text>
+    </g>
+
+    <!-- ======================================================================= -->
+    <!-- BOTTOM TELEMETRY STRIP: VERIFIED SYSTEM METRICS                         -->
+    <!-- ======================================================================= -->
+    <g transform="translate(46, 338)">
+      <rect x="0" y="0" width="1108" height="88" rx="16" fill="url(#hudGlass)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+      <!-- Column Dividers -->
+      <line x1="277" y1="16" x2="277" y2="72" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
+      <line x1="554" y1="16" x2="554" y2="72" stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="1"/>
+      <line x1="831" y1="16" x2="831" y2="72" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1"/>
+
+      <!-- Cell 1 -->
+      <g transform="translate(24, 24)">
+        <text x="0" y="0" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">SURVEY ARCHIVE</text>
+        <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">17,736 RGB Galaxies</text>
+        <text x="0" y="43" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">256×256×3 uint8 · SHA-256 Verified</text>
+      </g>
+
+      <!-- Cell 2 -->
+      <g transform="translate(301, 24)">
+        <text x="0" y="0" fill="#818CF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">MODEL &amp; RUNTIME</text>
+        <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">ResNet-18 · CUDA T4</text>
+        <text x="0" y="43" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">224×224 Input · NumPy mmap (~2.3m)</text>
+      </g>
+
+      <!-- Cell 3 -->
+      <g transform="translate(578, 24)">
+        <text x="0" y="0" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">CONTROLLED STRESS SUITE</text>
+        <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="700">Blur · Res · Noise · Bright</text>
+        <text x="0" y="43" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8">Sev 1–3 · Factors (0.8, 0.6, 0.4)</text>
+      </g>
+
+      <!-- Cell 4 -->
+      <g transform="translate(855, 24)">
+        <text x="0" y="0" fill="#F472B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">EVALUATION HYGIENE</text>
+        <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="700">Frozen 80 / 10 / 10 Split</text>
+        <text x="0" y="43" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8">Macro-F1 · Val Cutoffs · Held-Out</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Outer Crisp Frame Border -->
+  <rect x="2" y="2" width="1196" height="456" rx="22" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+</svg>

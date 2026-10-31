@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 264" width="1200" height="264" role="img" aria-label="Colab Verification and Smoke-Test Telemetry HUD">
+  <defs>
+    <linearGradient id="stBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05091A"/>
+      <stop offset="50%" stop-color="#0B1330"/>
+      <stop offset="100%" stop-color="#150B2E"/>
+    </linearGradient>
+    <linearGradient id="stBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="cardBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1E48" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#09122C" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="cardPurple" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B1348" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0E0B2B" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="cardPink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2B103B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#140A24" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Telemetry Container -->
+  <rect x="2" y="2" width="1196" height="260" rx="18" fill="url(#stBg)" stroke="url(#stBorder)" stroke-width="1.6"/>
+
+  <!-- Top Telemetry Header Bar -->
+  <g transform="translate(32, 24)">
+    <circle cx="10" cy="12" r="5" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="10" cy="12" r="9" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.5">
+      <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="16.5" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.4">COLAB RUNTIME TELEMETRY SNAPSHOT // 24 OCTOBER 2026</text>
+
+    <!-- Right Status Badges -->
+    <g transform="translate(684, -2)">
+      <rect x="0" y="0" width="218" height="26" rx="13" fill="#0C2948" stroke="#38BDF8" stroke-opacity="0.7" stroke-width="1"/>
+      <text x="14" y="17" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">● PIPELINE SMOKE-TESTED</text>
+
+      <rect x="228" y="0" width="224" height="26" rx="13" fill="#2E1038" stroke="#F472B6" stroke-opacity="0.7" stroke-width="1"/>
+      <text x="242" y="17" fill="#F9A8D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">◐ CLAIMS UNVERIFIED YET</text>
+    </g>
+  </g>
+
+  <line x1="32" y1="58" x2="1168" y2="58" stroke="url(#stBorder)" stroke-opacity="0.4" stroke-width="1"/>
+
+  <!-- CARD 1: DATASET & SHA-256 -->
+  <g transform="translate(32, 74)">
+    <rect x="0" y="0" width="269" height="164" rx="14" fill="url(#cardBlue)" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="0" y="0" width="269" height="4" rx="2" fill="#38BDF8"/>
+    <text x="18" y="28" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1">01 // SOURCE VERIFICATION</text>
+    <text x="18" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700">Galaxy10 DECaLS</text>
+    <text x="18" y="79" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">17,736 RGB · 256×256×3 · <tspan font-family="ui-monospace, monospace" fill="#7DD3FC">ans</tspan></text>
+    <text x="18" y="102" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">SHA256: 19AEFC47...C1571</text>
+    <rect x="18" y="122" width="198" height="24" rx="12" fill="#0A2E46" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="1"/>
+    <text x="28" y="138" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">✓ DOWNLOAD &amp; HASH MATCH</text>
+  </g>
+
+  <!-- CARD 2: NUMPY MEMMAP CACHE -->
+  <g transform="translate(321, 74)">
+    <rect x="0" y="0" width="269" height="164" rx="14" fill="url(#cardBlue)" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="0" y="0" width="269" height="4" rx="2" fill="#6366F1"/>
+    <text x="18" y="28" fill="#818CF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1">02 // MEMORY-MAPPED I/O</text>
+    <text x="18" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700">~2.3 Min Build</text>
+    <text x="18" y="79" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">NumPy <tspan font-family="ui-monospace, monospace" fill="#A5B4FC">mmap_mode="r"</tspan> cache</text>
+    <text x="18" y="102" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Path: data/cache/ (~3.5 GB)</text>
+    <rect x="18" y="122" width="192" height="24" rx="12" fill="#151C4A" stroke="#818CF8" stroke-opacity="0.6" stroke-width="1"/>
+    <text x="28" y="138" fill="#C7D2FE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">✓ CACHE LOADER ACTIVE</text>
+  </g>
+
+  <!-- CARD 3: RESNET-18 CUDA SMOKE TEST -->
+  <g transform="translate(610, 74)">
+    <rect x="0" y="0" width="269" height="164" rx="14" fill="url(#cardPurple)" stroke="#A855F7" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="0" y="0" width="269" height="4" rx="2" fill="#A855F7"/>
+    <text x="18" y="28" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1">03 // GPU SMOKE TEST</text>
+    <text x="18" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700">Loss: 2.4121 (Finite)</text>
+    <text x="18" y="79" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">ResNet-18 on NVIDIA Tesla T4</text>
+    <text x="18" y="102" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">(4,3,224,224) → (4,10) logits</text>
+    <rect x="18" y="122" width="208" height="24" rx="12" fill="#24124D" stroke="#C084FC" stroke-opacity="0.6" stroke-width="1"/>
+    <text x="28" y="138" fill="#E9D5FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">✓ FWD / LOSS / BWD PASSED</text>
+  </g>
+
+  <!-- CARD 4: NOT YET VERIFIED GUARDRAIL -->
+  <g transform="translate(899, 74)">
+    <rect x="0" y="0" width="269" height="164" rx="14" fill="url(#cardPink)" stroke="#EC4899" stroke-opacity="0.6" stroke-width="1.2"/>
+    <rect x="0" y="0" width="269" height="4" rx="2" fill="#EC4899"/>
+    <text x="18" y="28" fill="#F472B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1">04 // NEXT VERIFICATION</text>
+    <text x="18" y="56" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700">Suite &amp; Class Audit</text>
+    <text x="18" y="79" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Smoke labels were <tspan font-family="ui-monospace, monospace" fill="#F9A8D4">[0, 0, 0, 0]</tspan></text>
+    <text x="18" y="102" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Verify pytest, splits &amp; pilot</text>
+    <rect x="18" y="122" width="232" height="24" rx="12" fill="#3B0F36" stroke="#F472B6" stroke-opacity="0.65" stroke-width="1"/>
+    <text x="27" y="138" fill="#FBCFE8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700">⚑ EXECUTION ≠ SCIENTIFIC CLAIM</text>
+  </g>
+</svg>

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 344" width="1200" height="344" role="img" aria-label="Corrected Brightness Robustness Results on Frozen Test Split">
+  <defs>
+    <linearGradient id="brBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="52%" stop-color="#0B1330"/>
+      <stop offset="100%" stop-color="#190A2E"/>
+    </linearGradient>
+    <linearGradient id="brBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="accBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="f1Bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <radialGradient id="disc08" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#7DD3FC" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="disc06" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E2E8F0" stop-opacity="0.62"/>
+      <stop offset="45%" stop-color="#A855F7" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#3B0764" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="disc04" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CBD5E1" stop-opacity="0.40"/>
+      <stop offset="45%" stop-color="#EC4899" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#500724" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="340" rx="18" fill="url(#brBg)" stroke="url(#brBorder)" stroke-opacity="0.75" stroke-width="1.6"/>
+
+  <!-- Header -->
+  <g transform="translate(36, 34)">
+    <text x="0" y="0" fill="#F472B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">BRIGHTNESS ROBUSTNESS CORRECTION // 2026-10-27 · FROZEN TEST SPLIT (N = 1,774)</text>
+    <text x="0" y="24" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">Corrected Monotonic Darkening Factors (0.8, 0.6, 0.4) — Accuracy &amp; Macro-F1</text>
+
+    <!-- Legend -->
+    <g transform="translate(916, 8)">
+      <rect x="0" y="0" width="14" height="14" rx="4" fill="url(#accBar)"/>
+      <text x="22" y="11.5" fill="#CBD5E1" font-family="ui-monospace, monospace" font-size="11.5">Accuracy</text>
+      <rect x="118" y="0" width="14" height="14" rx="4" fill="url(#f1Bar)"/>
+      <text x="140" y="11.5" fill="#CBD5E1" font-family="ui-monospace, monospace" font-size="11.5">Macro-F1</text>
+    </g>
+  </g>
+
+  <!-- Scale Guide Lines (x = 370 to 1070 => 700px = 1.0000) -->
+  <g stroke="#38BDF8" stroke-opacity="0.09" stroke-width="1" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">
+    <line x1="370" y1="78" x2="370" y2="282"/><text x="360" y="298" stroke="none">0.0</text>
+    <line x1="510" y1="78" x2="510" y2="282"/><text x="500" y="298" stroke="none">0.2</text>
+    <line x1="650" y1="78" x2="650" y2="282"/><text x="640" y="298" stroke="none">0.4</text>
+    <line x1="790" y1="78" x2="790" y2="282"/><text x="780" y="298" stroke="none">0.6</text>
+    <line x1="930" y1="78" x2="930" y2="282"/><text x="920" y="298" stroke="none">0.8</text>
+    <line x1="1070" y1="78" x2="1070" y2="282"/><text x="1058" y="298" stroke="none">1.0</text>
+  </g>
+
+  <!-- ROW 1: Severity 1 — mild darkening (0.8) | Acc 0.7813 (546.9px) | Macro-F1 0.7762 (543.3px) -->
+  <g transform="translate(36, 86)">
+    <rect x="0" y="0" width="314" height="54" rx="12" fill="#0B193D" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1"/>
+    <circle cx="30" cy="27" r="19" fill="#050816" stroke="#38BDF8" stroke-opacity="0.4"/>
+    <circle cx="30" cy="27" r="17" fill="url(#disc08)"/>
+    <text x="60" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Severity 1 — Mild Darkening</text>
+    <text x="60" y="41" fill="#7DD3FC" font-family="ui-monospace, monospace" font-size="11.5">Brightness Factor: 0.8×</text>
+
+    <!-- Bars -->
+    <rect x="334" y="6" width="700" height="17" rx="8.5" fill="#0A132C"/>
+    <rect x="334" y="6" width="546.9" height="17" rx="8.5" fill="url(#accBar)">
+      <animate attributeName="width" from="0" to="546.9" dur="1.2s" fill="freeze"/>
+    </rect>
+    <text x="892" y="18.5" fill="#7DD3FC" font-family="ui-monospace, monospace" font-size="12" font-weight="700">0.7813</text>
+
+    <rect x="334" y="29" width="700" height="17" rx="8.5" fill="#0A132C"/>
+    <rect x="334" y="29" width="543.3" height="17" rx="8.5" fill="url(#f1Bar)">
+      <animate attributeName="width" from="0" to="543.3" dur="1.4s" fill="freeze"/>
+    </rect>
+    <text x="892" y="41.5" fill="#F9A8D4" font-family="ui-monospace, monospace" font-size="12" font-weight="700">0.7762</text>
+  </g>
+
+  <!-- ROW 2: Severity 2 — moderate darkening (0.6) | Acc 0.7097 (496.8px) | Macro-F1 0.7039 (492.7px) -->
+  <g transform="translate(36, 154)">
+    <rect x="0" y="0" width="314" height="54" rx="12" fill="#131442" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/>
+    <circle cx="30" cy="27" r="19" fill="#050816" stroke="#8B5CF6" stroke-opacity="0.4"/>
+    <circle cx="30" cy="27" r="17" fill="url(#disc06)"/>
+    <text x="60" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Severity 2 — Moderate Darkening</text>
+    <text x="60" y="41" fill="#C084FC" font-family="ui-monospace, monospace" font-size="11.5">Brightness Factor: 0.6×</text>
+
+    <!-- Bars -->
+    <rect x="334" y="6" width="700" height="17" rx="8.5" fill="#0A132C"/>
+    <rect x="334" y="6" width="496.8" height="17" rx="8.5" fill="url(#accBar)">
+      <animate attributeName="width" from="0" to="496.8" dur="1.2s" fill="freeze"/>
+    </rect>
+    <text x="842" y="18.5" fill="#7DD3FC" font-family="ui-monospace, monospace" font-size="12" font-weight="700">0.7097</text>
+
+    <rect x="334" y="29" width="700" height="17" rx="8.5" fill="#0A132C"/>
+    <rect x="334" y="29" width="492.7" height="17" rx="8.5" fill="url(#f1Bar)">
+      <animate attributeName="width" from="0" to="492.7" dur="1.4s" fill="freeze"/>
+    </rect>
+    <text x="842" y="41.5" fill="#F9A8D4" font-family="ui-monospace, monospace" font-size="12" font-weight="700">0.7039</text>
+  </g>
+
+  <!-- ROW 3: Severity 3 — strong darkening (0.4) | Acc 0.5620 (393.4px) | Macro-F1 0.5657 (396.0px) -->
+  <g transform="translate(36, 222)">
+    <rect x="0" y="0" width="314" height="54" rx="12" fill="#230E38" stroke="#EC4899" stroke-opacity="0.55" stroke-width="1.2"/>
+    <circle cx="30" cy="27" r="19" fill="#050816" stroke="#EC4899" stroke-opacity="0.45"/>
+    <circle cx="30" cy="27" r="17" fill="url(#disc04)"/>
+    <text x="60" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Severity 3 — Strong Darkening</text>
+    <text x="60" y="41" fill="#F472B6" font-family="ui-monospace, monospace" font-size="11.5">Factor: 0.4× (Fixed from 1.25×)</text>
+
+    <!-- Bars -->
+    <rect x="334" y="6" width="700" height="17" rx="8.5" fill="#0A132C"/>
+    <rect x="334" y="6" width="393.4" height="17" rx="8.5" fill="url(#accBar)">
+      <animate attributeName="width" from="0" to="393.4" dur="1.2s" fill="freeze"/>
+    </rect>
+    <text x="740" y="18.5" fill="#7DD3FC" font-family="ui-monospace, monospace" font-size="12" font-weight="700">0.5620</text>
+
+    <rect x="334" y="29" width="700" height="17" rx="8.5" fill="#0A132C"/>
+    <rect x="334" y="29" width="396.0" height="17" rx="8.5" fill="url(#f1Bar)">
+      <animate attributeName="width" from="0" to="396.0" dur="1.4s" fill="freeze"/>
+    </rect>
+    <text x="740" y="41.5" fill="#F9A8D4" font-family="ui-monospace, monospace" font-size="12" font-weight="700">0.5657</text>
+  </g>
+
+  <!-- Caveat Footer -->
+  <text x="36" y="324" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+    Note: Recovered aggregate scores on frozen test split · Corrected severity-3 per-class metrics &amp; confusion matrix unavailable · Synthetic stress test only.
+  </text>
+</svg>
